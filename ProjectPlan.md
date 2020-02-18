@@ -1,27 +1,19 @@
 # Project Plan
 
 
-### Week 1
-- [ ] Explore project ideas
+### Week 4
 - [ ] Choose project topic
 - [ ] Create project repository on GitHub
 - [ ] Create project structure in intellij and push
-- [ ] Research on Google Map API
-
-
-### Week 2
 - [ ] Add link to list of indie projects in student repo.
-
-
-### Week 3
 - [ ] Write problem statement
-- [ ] Write project plan
 - [ ] Write user stories
+- [ ] Write project plan
 - [ ] Create wireframe
 - [ ] Weekly journal entry
 
 
-### Week 4
+### Week 5
 - [ ] List technologies, versions and how they will be used
 - [ ] Complete database design
 - [ ] Create the database and user table
@@ -44,7 +36,7 @@
 ### Week 6
 - [ ] Set up logging
 - [ ] Create db on AWS
-- [ ] Deploy to AWS for first time
+- [ ] Deploy to AWS
 - [ ] Prepare for Checkpoint 2
 - [ ] Weekly journal entry
 
@@ -56,7 +48,7 @@
 
 
 ### Week 8
-- [ ] Integration with google maps api
+- [ ] Integration with google mail api
 - [ ] Weekly journal entry
 
 
@@ -96,4 +88,3 @@
 - [ ] Final touches before code complete
 - [ ] Weekly journal entry
 - [ ] Final Presentation
-
