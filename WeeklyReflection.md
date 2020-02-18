@@ -108,5 +108,11 @@ Tasks Completed:
 I decided to change my project idea. My current idea is to create a treat tracker for work. Completed and committed
 the above files to GitHub.
 
+##### 02/18/2020 - 2 hours
 
+Tasks Completed
+* Created wireframe for screen design
+* Complete screenDesign.md
+* Update project plan
+* Push new documents to GitHub
 
