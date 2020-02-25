@@ -116,3 +116,17 @@ Tasks Completed
 * Update project plan
 * Push new documents to GitHub
 
+### Week 5
+
+##### 02/24/2020 - 5 hours
+
+Task Completed
+* Started jsp for index, about, contentType, head, and navbar
+* Created a 'logo' for website
+* Add CSS file
+* Add three entity; User, Incident, & Resolve
+* Add three DAO for User, Incident, & Resolve
+
+I completed the above tasks but have not test to see if there are any issues. I still need to create my database so I 
+can run some test to ensure my DAO/entities are working as I'm expecting it. I'm currently having issue with my JSP not
+getting what I want to display. This is likely a bootstrap issue and will need to bush up on bootstrap.
