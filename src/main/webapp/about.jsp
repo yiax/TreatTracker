@@ -9,6 +9,7 @@
 <html>
 <jsp:include page="head.jsp" />
 <body>
+<div class="container">
     <jsp:include page="navbar.jsp" />
     <h1>ABOUT</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula lacus nisi, nec vulputate ante dictum eget.
@@ -30,5 +31,6 @@
     eu. Phasellus id eleifend felis, a malesuada diam. Maecenas at metus non sapien sagittis ornare sit amet in lectus.
     Duis aliquet, dolor ut cursus elementum, ligula leo fermentum dui, at pellentesque erat felis a est. Nulla pharetra
     auctor commodo.</p>
+</div>
 </body>
 </html>
