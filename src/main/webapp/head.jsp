@@ -30,5 +30,5 @@
     <link rel="stylesheet" href="css/treatTracker.css">
 
     <!-- google font -->
-    <link href='https://fonts.googleapis.com/css?family=Herr Von Muellerhoff' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
 </head>
