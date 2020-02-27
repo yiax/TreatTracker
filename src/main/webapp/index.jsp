@@ -9,9 +9,9 @@
 <html>
 <jsp:include page="head.jsp" />
 <body>
+<div class="container">
     <jsp:include page="navbar.jsp" />
-    <div class="container-fluid">
-        <h1>Hello World!</h1>
-    </div>
+    <h1>Hello World!</h1>
+</div>
 </body>
 </html>
