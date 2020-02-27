@@ -8,8 +8,10 @@
 <jsp:include page="contentType.jsp" />
 <html>
 <jsp:include page="head.jsp" />
-<body class="container">
-<jsp:include page="navbar.jsp" />
+<body>
+<div class="container">
+    <jsp:include page="navbar.jsp" />
     <h1>Contact</h1>
+</div>
 </body>
 </html>
