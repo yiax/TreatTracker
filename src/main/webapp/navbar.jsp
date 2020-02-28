@@ -25,7 +25,7 @@
 </nav>
 
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content rounded-0">
             <div class="modal-header">
                 <h4 class="modal-title" id="myLoginModalLabel">My Account Login</h4>
@@ -55,7 +55,7 @@
 </div>
 
 <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content rounded-0">
             <div class="modal-header">
                 <h4 class="modal-title" id="myRegisterModalLabel">Register Information</h4>
