@@ -31,4 +31,7 @@
 
     <!-- google font -->
     <link href='https://fonts.googleapis.com/css?family=Darker Grotesque' rel='stylesheet'>
+
+    <!-- include js -->
+    <script src="js/functions.js"></script>
 </head>
