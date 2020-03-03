@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>edu.matc.exercises</groupId>
-  <artifactId>week-4-hibernate-exercise</artifactId>
+  <groupId>edu.matc.indie</groupId>
+  <artifactId>IndieProject-TreatTracker</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>IndieProject-TreatTracker Maven Webapp</name>
+  <name>week-4-hibernate-exercise Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
     <hibernate-version>5.4.4.Final</hibernate-version>

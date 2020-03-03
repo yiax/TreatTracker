@@ -4,11 +4,14 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306/FBTR</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/treattracker</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
 
-        <property name="connection.username">${db.username}</property>
-        <property name="connection.password">${db.password}</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">student</property>
+
+        <!--<property name="connection.username">${db.username}</property>
+        <property name="connection.password">${db.password}</property>-->
 
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>
@@ -16,18 +19,9 @@
         <property name="hibernate.c3p0.max_statements">50</property>
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
-
-        <!--<property name="connection.username">root</property>
-        <property name="connection.password">student</property>-->
-
-        <mapping class="com.paulawaite.fbtr.entity.Difficulty"/>
-        <mapping class="com.paulawaite.fbtr.entity.GroomingType"/>
-        <mapping class="com.paulawaite.fbtr.entity.Role"/>
-        <mapping class="com.paulawaite.fbtr.entity.Trail"/>
-        <mapping class="com.paulawaite.fbtr.entity.TrailReport"/>
-        <mapping class="com.paulawaite.fbtr.entity.TrailType"/>
-        <mapping class="com.paulawaite.fbtr.entity.User"/>
-        <mapping class="com.paulawaite.fbtr.entity.Location"/>
+        <mapping class="com.yiaxiong.treattracker.entity.User"/>
+        <mapping class="com.yiaxiong.treattracker.entity.Incident"/>
+        <mapping class="com.yiaxiong.treattracker.entity.Resolution"/>
 
     </session-factory>
 
