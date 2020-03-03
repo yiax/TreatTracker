@@ -1,7 +1,5 @@
 package com.yiaxiong.treattracker.entity;
 
-import com.yiaxiong.treattracker.entity.Incident;
-
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.HashSet;
@@ -17,21 +15,14 @@ public class User {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name = "first_name")
-    private String firstName;
-
-    @Column(name = "last_name")
-    private String lastName;
-
-    private String email;
-
-    @Column(name = "user_name")
-    private String userName;
-
-    private String password;
-
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Incident> incidents = new HashSet<>();
+
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String userName;
+    private String password;
 
     /**
      * Instantiate a new User; the empty constructor

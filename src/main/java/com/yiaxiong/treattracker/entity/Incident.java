@@ -1,8 +1,5 @@
 package com.yiaxiong.treattracker.entity;
 
-import com.yiaxiong.treattracker.entity.User;
-import com.yiaxiong.treattracker.entity.Resolve;
-
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -22,20 +19,18 @@ public class Incident {
     private LocalDateTime incidentDate;
 
     @OneToOne
-    private User user;
+    private Resolution resolution;
 
+    private String email;
     private String description;
-
-    @OneToOne
-    private Resolve resolve;
 
     public Incident() {}
 
-    public Incident(LocalDateTime incidentDate, User user, String description, Resolve resolve) {
+    public Incident(LocalDateTime incidentDate, String email, String description, Resolution resolution) {
         this.incidentDate = incidentDate;
-        this.user = user;
+        this.email = email;
         this.description = description;
-        this.resolve = resolve;
+        this.resolution = resolution;
     }
 
     public int getId() {
@@ -54,12 +49,12 @@ public class Incident {
         this.incidentDate = incidentDate;
     }
 
-    public User getUser() {
-        return user;
+    public String getEmail() {
+        return email;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getDescription() {
@@ -70,11 +65,11 @@ public class Incident {
         this.description = description;
     }
 
-    public Resolve getResolve() {
-        return resolve;
+    public Resolution getResolution() {
+        return resolution;
     }
 
-    public void setResolve(Resolve resolve) {
-        this.resolve = resolve;
+    public void setResolution(Resolution resolution) {
+        this.resolution = resolution;
     }
 }

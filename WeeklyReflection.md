@@ -130,3 +130,34 @@ Task Completed
 I completed the above tasks but have not test to see if there are any issues. I still need to create my database so I 
 can run some test to ensure my DAO/entities are working as I'm expecting it. I'm currently having issue with my JSP not
 getting what I want to display. This is likely a bootstrap issue and will need to bush up on bootstrap.
+
+### Week 6
+
+##### 02/26/2020 - 2 hours
+
+Task Completed
+* Added a register and login modal to navigation menu
+
+Finally got the login and register modal working correctly. Next step is to send each submit to a controller and send to 
+the appropriate jsp when logging in or logging out.
+
+##### 02/27/2020 - 2 hours
+
+Task Completed
+* Made some tweak to the navigation bar and head file.
+* Added a js file and added form field validations.
+* Started on a home page for a register user.
+
+The home page for the register user is still a working progress. After the user login, the login information will be
+validated from a servlet. If the user is valid, it should forward the user to this home page.
+
+##### 03/02/2020 - 3 hours
+
+Task Completed
+* Update instance variables in all three entities
+* Added generic dao
+* Add sql table
+* Added databaseDiagram image
+
+There's some additional work to do. I'm still trying to update my database to show a one to many relationship between
+the user and incident tables.
