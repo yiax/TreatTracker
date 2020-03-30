@@ -34,7 +34,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="#" class="needs-validation" novalidate>
+                <form action="Login" class="needs-validation" novalidate>
                     <div class="form-group">
                         <label for="email">Email:</label>
                         <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" required>

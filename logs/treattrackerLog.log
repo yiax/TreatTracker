@@ -1,0 +1,378 @@
+[ERROR] 2020-03-25 19:29:36.813 [main] UserTest - error: 
+[ERROR] 2020-03-25 19:30:08.625 [main] UserTest - error: 
+[ERROR] 2020-03-25 19:30:37.341 [main] UserTest - error: 
+[ERROR] 2020-03-25 19:38:54.822 [main] UserTest - error: 
+[ERROR] 2020-03-25 19:41:59.356 [main] UserTest - error: 
+[ERROR] 2020-03-25 19:52:08.669 [main] UserTest - error: 
+[ERROR] 2020-03-25 19:57:39.284 [main] UserTest - error: 
+[ERROR] 2020-03-25 19:59:18.547 [main] UserTest - error: 
+[ERROR] 2020-03-25 20:01:23.758 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:01:23.761 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:02:22.671 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:02:22.674 [main] Database - root
+[ERROR] 2020-03-25 20:02:23.057 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:02:23.058 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:05:26.213 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:05:26.216 [main] Database - root
+[ERROR] 2020-03-25 20:05:26.601 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:05:26.601 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:06:54.463 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:06:54.466 [main] Database - root
+[ERROR] 2020-03-25 20:06:54.877 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:06:54.878 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:15:29.085 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:15:29.089 [main] Database - root
+[ERROR] 2020-03-25 20:15:29.397 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:15:29.397 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:17:07.782 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:17:07.785 [main] Database - root
+[ERROR] 2020-03-25 20:17:08.349 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:17:08.350 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:17:13.161 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:17:13.165 [main] Database - root
+[ERROR] 2020-03-25 20:17:13.582 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:17:13.582 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:19:42.296 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:19:42.299 [main] Database - root
+[ERROR] 2020-03-25 20:19:42.702 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:19:42.702 [main] GenericDao - in getAll method
+[ERROR] 2020-03-25 20:25:04.205 [main] DatabaseUtility - java.sql.SQLSyntaxErrorException: Unknown database 'FBTRTest'
+[INFO ] 2020-03-25 20:25:04.210 [main] GenericDao - in getAll method
+[ERROR] 2020-03-25 20:26:06.120 [main] DatabaseUtility - java.sql.SQLSyntaxErrorException: Unknown database 'FBTRTest'
+[INFO ] 2020-03-25 20:26:06.125 [main] GenericDao - in getAll method
+[ERROR] 2020-03-25 20:30:55.912 [main] DatabaseUtility - java.sql.SQLSyntaxErrorException: Unknown database 'FBTRTest'
+[INFO ] 2020-03-25 20:30:55.916 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:38:19.217 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:38:19.221 [main] Database - root
+[ERROR] 2020-03-25 20:38:19.723 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:38:19.723 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:52:58.926 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:52:58.931 [main] Database - root
+[ERROR] 2020-03-25 20:52:59.285 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:52:59.285 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 20:54:30.564 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 20:54:30.567 [main] Database - root
+[ERROR] 2020-03-25 20:54:30.909 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 20:54:30.910 [main] GenericDao - in getAll method
+[INFO ] 2020-03-25 21:06:34.741 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 21:06:34.744 [main] Database - root
+[ERROR] 2020-03-25 21:06:35.105 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-25 21:15:56.395 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 21:15:56.398 [main] Database - root
+[ERROR] 2020-03-25 21:15:56.824 [main] Database - java.sql.SQLException: Unknown collation: 'utf8mb4_0900_ai_ci'
+[INFO ] 2020-03-25 21:17:23.702 [main] Database - properties loaded.
+[DEBUG] 2020-03-25 21:17:23.705 [main] Database - root
+[ERROR] 2020-03-25 21:17:24.027 [main] Database - java.sql.SQLException: Unknown collation: 'utf8mb4_0900_ai_ci'
+[INFO ] 2020-03-29 21:17:19.654 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 21:17:19.657 [main] Database - root
+[ERROR] 2020-03-29 21:17:20.056 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'treattracker'
+[INFO ] 2020-03-29 21:19:23.561 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 21:19:23.564 [main] Database - root
+[ERROR] 2020-03-29 21:19:23.935 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-29 21:22:29.612 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 21:22:29.615 [main] Database - root
+[INFO ] 2020-03-29 21:24:16.202 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 21:24:16.206 [main] Database - root
+[INFO ] 2020-03-29 21:35:02.458 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 21:35:02.461 [main] Database - root
+[INFO ] 2020-03-29 21:43:49.263 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 21:43:49.267 [main] Database - root
+[ERROR] 2020-03-29 21:43:49.268 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 21:51:50.904 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 21:51:50.908 [main] Database - root
+[ERROR] 2020-03-29 21:51:50.908 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:05:24.161 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:05:24.164 [main] Database - root
+[ERROR] 2020-03-29 22:05:24.165 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:06:28.858 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:06:28.861 [main] Database - root
+[ERROR] 2020-03-29 22:06:28.861 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:12:45.832 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:12:45.838 [main] Database - root
+[ERROR] 2020-03-29 22:12:45.839 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:16:46.909 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:16:46.912 [main] Database - root
+[ERROR] 2020-03-29 22:16:46.912 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:18:28.893 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:18:28.896 [main] Database - root
+[ERROR] 2020-03-29 22:18:28.896 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:22:53.181 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:22:53.184 [main] Database - root
+[ERROR] 2020-03-29 22:22:53.185 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:22:54.831 [main] GenericDao - root: org.hibernate.query.criteria.internal.path.RootImpl@1f4f0fcc
+[INFO ] 2020-03-29 22:24:09.232 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:24:09.235 [main] Database - root
+[ERROR] 2020-03-29 22:24:09.236 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:24:10.882 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[INFO ] 2020-03-29 22:25:24.524 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:25:24.527 [main] Database - root
+[ERROR] 2020-03-29 22:25:24.528 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:25:26.103 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:25:26.104 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@3e1f1046
+[INFO ] 2020-03-29 22:35:05.615 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:35:05.617 [main] Database - root
+[ERROR] 2020-03-29 22:35:05.618 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:36:31.518 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:36:31.521 [main] Database - root
+[ERROR] 2020-03-29 22:36:31.522 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:37:14.179 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:37:14.182 [main] Database - root
+[ERROR] 2020-03-29 22:37:14.183 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:37:57.436 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:37:57.440 [main] Database - root
+[ERROR] 2020-03-29 22:37:57.441 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:37:59.108 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:37:59.108 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@b6bccb4
+[DEBUG] 2020-03-29 22:37:59.248 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[ERROR] 2020-03-29 22:37:59.251 [main] UserTest - error: 
+[INFO ] 2020-03-29 22:38:58.604 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:38:58.607 [main] Database - root
+[ERROR] 2020-03-29 22:38:58.607 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:39:00.257 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:39:00.257 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@b6bccb4
+[DEBUG] 2020-03-29 22:39:00.398 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[ERROR] 2020-03-29 22:39:00.401 [main] UserTest - error: 
+[INFO ] 2020-03-29 22:41:13.513 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:41:13.516 [main] Database - root
+[ERROR] 2020-03-29 22:41:13.517 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:41:15.126 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:41:15.127 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@647b9364
+[DEBUG] 2020-03-29 22:41:15.280 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 22:43:20.422 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:43:20.425 [main] Database - root
+[ERROR] 2020-03-29 22:43:20.425 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:43:22.076 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:43:22.076 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@25a1a012
+[DEBUG] 2020-03-29 22:43:22.213 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 22:47:40.821 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:47:40.823 [main] Database - root
+[ERROR] 2020-03-29 22:47:40.824 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:47:42.451 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:47:42.451 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@b6bccb4
+[DEBUG] 2020-03-29 22:47:42.592 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 22:48:54.747 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:48:54.750 [main] Database - root
+[ERROR] 2020-03-29 22:48:54.751 [main] Database - java.lang.NullPointerException
+[INFO ] 2020-03-29 22:48:57.845 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:48:57.848 [main] Database - root
+[ERROR] 2020-03-29 22:48:57.849 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:48:59.277 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:48:59.277 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@647b9364
+[DEBUG] 2020-03-29 22:48:59.414 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[DEBUG] 2020-03-29 22:48:59.451 [main] UserTest - user: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttest'}
+[DEBUG] 2020-03-29 22:48:59.452 [main] UserTest - updatedUser: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttest'}
+[INFO ] 2020-03-29 22:50:02.080 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:50:02.083 [main] Database - root
+[ERROR] 2020-03-29 22:50:02.084 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:50:03.750 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:50:03.750 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@647b9364
+[DEBUG] 2020-03-29 22:50:03.887 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[DEBUG] 2020-03-29 22:50:03.934 [main] UserTest - user: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttest'}
+[DEBUG] 2020-03-29 22:50:03.934 [main] UserTest - updatedUser: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttest'}
+[INFO ] 2020-03-29 22:51:19.819 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 22:51:19.825 [main] Database - root
+[ERROR] 2020-03-29 22:51:19.826 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 22:51:21.535 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 22:51:21.536 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@b6bccb4
+[DEBUG] 2020-03-29 22:51:21.678 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[DEBUG] 2020-03-29 22:51:21.717 [main] UserTest - user: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttest'}
+[DEBUG] 2020-03-29 22:51:21.717 [main] UserTest - updatedUser: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttest'}
+[INFO ] 2020-03-29 23:04:55.852 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:04:55.855 [main] Database - root
+[ERROR] 2020-03-29 23:04:55.856 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:04:57.523 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:04:57.523 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@c2df90e
+[DEBUG] 2020-03-29 23:04:57.668 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[ERROR] 2020-03-29 23:04:57.673 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:04:57.673 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:04:57.673 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@7c8874ef
+[DEBUG] 2020-03-29 23:04:57.698 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[DEBUG] 2020-03-29 23:04:57.746 [main] UserTest - user: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}
+[DEBUG] 2020-03-29 23:04:57.746 [main] UserTest - updatedUser: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}
+[INFO ] 2020-03-29 23:05:46.479 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:05:46.482 [main] Database - root
+[DEBUG] 2020-03-29 23:05:46.482 [main] UserTest - property loaded.
+[ERROR] 2020-03-29 23:05:46.482 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:05:48.178 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:05:48.178 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@7f97bc14
+[DEBUG] 2020-03-29 23:05:48.317 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[DEBUG] 2020-03-29 23:05:48.321 [main] UserTest - property loaded.
+[ERROR] 2020-03-29 23:05:48.321 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:05:48.321 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:05:48.322 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@28be7fec
+[DEBUG] 2020-03-29 23:05:48.347 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:05:59.718 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:05:59.721 [main] Database - root
+[DEBUG] 2020-03-29 23:05:59.721 [main] UserTest - property loaded.
+[ERROR] 2020-03-29 23:05:59.722 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:06:01.390 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:06:01.391 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@647b9364
+[DEBUG] 2020-03-29 23:06:01.530 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:07:29.971 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:07:29.974 [main] Database - root
+[DEBUG] 2020-03-29 23:07:29.974 [main] UserTest - property loaded.
+[ERROR] 2020-03-29 23:07:29.976 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:07:31.572 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:07:31.572 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@b6bccb4
+[DEBUG] 2020-03-29 23:07:31.704 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:08:45.475 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:08:45.478 [main] Database - root
+[ERROR] 2020-03-29 23:08:45.479 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:08:47.112 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:08:47.112 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@647b9364
+[DEBUG] 2020-03-29 23:08:47.249 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:11:29.164 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:11:29.168 [main] Database - root
+[ERROR] 2020-03-29 23:11:29.169 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:11:30.880 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:11:30.880 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@25a1a012
+[DEBUG] 2020-03-29 23:11:31.025 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:12:35.657 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:12:35.660 [main] Database - root
+[ERROR] 2020-03-29 23:12:35.665 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:12:37.336 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:12:37.336 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@b6bccb4
+[DEBUG] 2020-03-29 23:12:37.475 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:16:47.238 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:16:47.241 [main] Database - root
+[ERROR] 2020-03-29 23:16:47.242 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:16:48.962 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:16:48.962 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@ce12fbb
+[DEBUG] 2020-03-29 23:16:49.094 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:22:36.980 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:22:36.983 [main] Database - root
+[ERROR] 2020-03-29 23:22:36.984 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:22:38.742 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:22:38.742 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@b6bccb4
+[DEBUG] 2020-03-29 23:22:38.881 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:24:01.631 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:24:01.634 [main] Database - root
+[ERROR] 2020-03-29 23:24:01.635 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:24:03.360 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:24:03.360 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@ce12fbb
+[DEBUG] 2020-03-29 23:24:03.494 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:24:46.066 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:24:46.069 [main] Database - root
+[ERROR] 2020-03-29 23:24:46.070 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:24:47.719 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:24:47.719 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@647b9364
+[DEBUG] 2020-03-29 23:24:47.852 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:25:48.558 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:25:48.561 [main] Database - root
+[ERROR] 2020-03-29 23:25:48.567 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:25:50.315 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:25:50.315 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@647b9364
+[DEBUG] 2020-03-29 23:25:50.452 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:27:36.510 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:27:36.514 [main] Database - root
+[ERROR] 2020-03-29 23:27:36.515 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:27:38.296 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:27:38.296 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@647b9364
+[DEBUG] 2020-03-29 23:27:38.436 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:27:54.633 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:27:54.636 [main] Database - root
+[ERROR] 2020-03-29 23:27:54.637 [main] Database - exception: java.lang.NullPointerException
+[DEBUG] 2020-03-29 23:27:56.321 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:27:56.321 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@b6bccb4
+[DEBUG] 2020-03-29 23:27:56.473 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtesttesttesttesttesttest'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:35:03.636 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:35:03.639 [main] Database - root
+[ERROR] 2020-03-29 23:35:04.110 [main] Database - error: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATABASES treat_tracker_test' at line 1
+[DEBUG] 2020-03-29 23:35:05.998 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:35:05.998 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@70fede7d
+[DEBUG] 2020-03-29 23:35:06.134 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:36:44.986 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:36:44.989 [main] Database - root
+[ERROR] 2020-03-29 23:36:45.404 [main] Database - error: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATABASES treat_tracker_test' at line 1
+[DEBUG] 2020-03-29 23:36:47.357 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-29 23:36:47.357 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@101330ad
+[DEBUG] 2020-03-29 23:36:47.491 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-29 23:37:16.414 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:37:16.417 [main] Database - root
+[ERROR] 2020-03-29 23:37:17.153 [main] Database - error: java.sql.SQLSyntaxErrorException: Unknown database 'treat_tracker_test'
+[INFO ] 2020-03-29 23:38:29.555 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:38:29.575 [main] Database - root
+[ERROR] 2020-03-29 23:38:30.098 [main] Database - error: java.sql.SQLSyntaxErrorException: Unknown database 'treat_tracker_test'
+[INFO ] 2020-03-29 23:50:57.946 [main] Database - properties loaded.
+[DEBUG] 2020-03-29 23:50:57.949 [main] Database - root
+[ERROR] 2020-03-29 23:50:58.388 [main] Database - error: java.sql.SQLSyntaxErrorException: Unknown database 'treat_tracker_test'
+[INFO ] 2020-03-30 00:00:06.774 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:00:06.777 [main] Database - root
+[ERROR] 2020-03-30 00:00:07.131 [main] Database - error: java.sql.SQLSyntaxErrorException: Unknown database 'treat_tracker_test'
+[INFO ] 2020-03-30 00:12:21.770 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:12:21.773 [main] Database - root
+[ERROR] 2020-03-30 00:12:22.266 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2020-03-30 00:12:23.413 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:12:23.413 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@73bb573d
+[INFO ] 2020-03-30 00:13:55.416 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:13:55.420 [main] Database - root
+[DEBUG] 2020-03-30 00:13:57.526 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:13:57.526 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@615439f7
+[DEBUG] 2020-03-30 00:13:57.658 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:14:25.325 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:14:25.329 [main] Database - root
+[ERROR] 2020-03-30 00:14:25.809 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2020-03-30 00:14:27.068 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:14:27.069 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@73bb573d
+[DEBUG] 2020-03-30 00:14:27.228 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:15:46.677 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:15:46.680 [main] Database - root
+[ERROR] 2020-03-30 00:15:47.092 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2020-03-30 00:15:48.241 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:15:48.242 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@6f15f52a
+[DEBUG] 2020-03-30 00:15:48.373 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:18:16.296 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:18:16.299 [main] Database - root
+[ERROR] 2020-03-30 00:18:16.743 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2020-03-30 00:18:17.921 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:18:17.922 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@1eb9bf60
+[DEBUG] 2020-03-30 00:18:18.050 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:20:01.694 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:20:01.697 [main] Database - root
+[DEBUG] 2020-03-30 00:20:03.868 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:20:03.868 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@4d81e83a
+[DEBUG] 2020-03-30 00:20:04.001 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:20:13.724 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:20:13.728 [main] Database - root
+[DEBUG] 2020-03-30 00:20:15.963 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:20:15.963 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@55d8c2c4
+[DEBUG] 2020-03-30 00:20:16.097 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:21:01.931 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:21:01.934 [main] Database - root
+[DEBUG] 2020-03-30 00:21:04.185 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:21:04.185 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@150fc7a7
+[DEBUG] 2020-03-30 00:21:04.320 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:21:37.080 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:21:37.083 [main] Database - root
+[DEBUG] 2020-03-30 00:21:39.325 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:21:39.325 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@634e1b39
+[DEBUG] 2020-03-30 00:21:39.462 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[DEBUG] 2020-03-30 00:21:39.500 [main] UserTest - user: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest'}
+[DEBUG] 2020-03-30 00:21:39.500 [main] UserTest - updatedUser: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest'}
+[INFO ] 2020-03-30 00:21:57.510 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:21:57.513 [main] Database - root
+[DEBUG] 2020-03-30 00:21:59.680 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:21:59.680 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@150fc7a7
+[DEBUG] 2020-03-30 00:21:59.807 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[DEBUG] 2020-03-30 00:21:59.847 [main] UserTest - user: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest'}
+[DEBUG] 2020-03-30 00:21:59.847 [main] UserTest - updatedUser: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest'}
+[INFO ] 2020-03-30 00:22:45.841 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:22:45.844 [main] Database - root
+[DEBUG] 2020-03-30 00:22:48.019 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:22:48.020 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@632cf7d3
+[DEBUG] 2020-03-30 00:22:48.156 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:22:57.688 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:22:57.691 [main] Database - root
+[DEBUG] 2020-03-30 00:23:00.045 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:23:00.045 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@150fc7a7
+[DEBUG] 2020-03-30 00:23:00.180 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:23:27.701 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:23:27.704 [main] Database - root
+[DEBUG] 2020-03-30 00:23:29.857 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:23:29.857 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@55d8c2c4
+[DEBUG] 2020-03-30 00:23:29.989 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 00:25:19.836 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 00:25:19.839 [main] Database - root
+[DEBUG] 2020-03-30 00:25:22.117 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 00:25:22.118 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@649b5891
+[DEBUG] 2020-03-30 00:25:22.255 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]

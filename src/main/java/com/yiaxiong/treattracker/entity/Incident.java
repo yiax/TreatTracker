@@ -1,5 +1,6 @@
 package com.yiaxiong.treattracker.entity;
 
+import com.yiaxiong.treattracker.util.TimestampAttributeConverter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -16,21 +17,24 @@ public class Incident {
     private int id;
 
     @CreationTimestamp
+    @Convert(converter = TimestampAttributeConverter.class)
     private LocalDateTime incidentDate;
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="id")
     private Resolution resolution;
 
-    private String email;
+    @ManyToOne
+    @JoinColumn(name="id", referencedColumnName = "id", insertable = false, updatable = false)
+    private User user;
+
     private String description;
 
     public Incident() {}
 
-    public Incident(LocalDateTime incidentDate, String email, String description, Resolution resolution) {
+    public Incident(LocalDateTime incidentDate, String description) {
         this.incidentDate = incidentDate;
-        this.email = email;
         this.description = description;
-        this.resolution = resolution;
     }
 
     public int getId() {
@@ -49,13 +53,9 @@ public class Incident {
         this.incidentDate = incidentDate;
     }
 
-    public String getEmail() {
-        return email;
-    }
+    public User getUser() { return user; }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    public void setUser(User user) { this.user = user; }
 
     public String getDescription() {
         return description;
@@ -72,4 +72,5 @@ public class Incident {
     public void setResolution(Resolution resolution) {
         this.resolution = resolution;
     }
+
 }

@@ -17,9 +17,9 @@ public class DatabaseUtility {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     //TODO add hard-coded values to props file
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
-    static final String DB_URL = "jdbc:mysql://localhost/treattracker";
+    static final String DB_URL = "jdbc:mysql://localhost/FBTRTest";
 
     static final String USER = "root";
 
@@ -38,7 +38,7 @@ public class DatabaseUtility {
         InputStream inputStream = classloader.getResourceAsStream(sqlFile);
         try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
 
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName(JDBC_DRIVER);
 
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 

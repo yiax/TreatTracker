@@ -1,6 +1,5 @@
 package com.yiaxiong.treattracker.persistence;
 
-import com.yiaxiong.treattracker.util.DatabaseUtility;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -8,7 +7,7 @@ import com.yiaxiong.treattracker.entity.User;
 import com.yiaxiong.treattracker.util.Database;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.List;
 
@@ -31,7 +30,7 @@ public class UserTest {
     public void setUp() throws Exception {
         dao = new GenericDao(User.class);
         Database database = Database.getInstance();
-        database.runSQL("cleandb.sql");
+        database.runSQL("create.sql");
         users = dao.getAll();
     }
 
@@ -42,16 +41,19 @@ public class UserTest {
     @Test
     public void testGetAllUsers() throws Exception {
         assertTrue(users.size() > 0);
-        assertFalse(users.get(1).getFirstName().equals(""));
+        assertFalse(users.get(1).getFirstName().equals("Layla"));
+        assertFalse(users.get(1).getLastName().equals("Mcmanus"));
+        assertFalse(users.get(1).getEmail().equals("lmcmanus@treattracker.com"));
+        assertFalse(users.get(1).getUserName().equals("lmcmanus"));
     }
 
-    /*
+    /**
      * Test update user.
      * @throws Exception the exception
-     *//*
+     */
     @Test
     public void testUpdateUser() throws Exception {
-        User user = users.get(0);
+        User user = users.get(1);
         int id = user.getId();
         String emailBeforeUpdate = user.getEmail();
 
@@ -61,18 +63,20 @@ public class UserTest {
         dao.saveOrUpdate(user);
 
         User updatedUser = (User) dao.getById(id);
-
+        logger.debug("user: " + user.toString());
+        logger.debug("updatedUser: " + updatedUser.toString());
+        //assertTrue(user.equals(updatedUser));
         assertEquals(user, updatedUser);
-    }*/
+    }
 
-    /*
+    /**
      * Test delete user.
      * @throws Exception the exception
-     *//*
+     */
     @Test
     public void testDeleteUser() throws Exception {
         int sizeBeforeDelete = users.size();
-        User userToDelete = users.get(0);
+        User userToDelete = users.get(3);
         int id = userToDelete.getId();
         dao.delete(userToDelete);
         int sizeAfterDelete = dao.getAll().size();
@@ -81,13 +85,13 @@ public class UserTest {
 
         assertEquals(sizeBeforeDelete - 1, sizeAfterDelete);
         assertNull(deletedUser);
-    }*/
+    }
 
-    /*
+    /**
      * Test add user.
      *
      * @throws Exception the exception
-     *//*
+     */
     @Test
     public void testAddUser() throws Exception {
 
@@ -105,16 +109,16 @@ public class UserTest {
 
         assertTrue(insertedUserId > 0);
         assertEquals(user, retrievedUser);
-    }*/
+    }
 
-    /*
+    /**
      * Test get all users with last name exact.
      * @throws Exception the exception
-     *//*
+     */
     @Test
     public void testGetAllUsersWithLastNameExact() throws Exception {
         users = dao.findByPropertyEqual("lastName", "Wagner");
         assertTrue(users.size() > 0);
         assertTrue(users.get(0).getFirstName().equals("Unit1"));
-    }*/
+    }
 }

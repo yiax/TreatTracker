@@ -20,9 +20,8 @@ public class SessionFactoryProvider {
      * private constructor prevents instantiating this class anywhere else
      */
 
-    private SessionFactoryProvider() {
+    private SessionFactoryProvider() { }
 
-    }
     /**
      * Create session factory.
      */

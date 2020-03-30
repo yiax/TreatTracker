@@ -1,5 +1,6 @@
 package com.yiaxiong.treattracker.entity;
 
+import com.yiaxiong.treattracker.util.TimestampAttributeConverter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
@@ -15,17 +16,12 @@ public class Resolution {
     private int id;
 
     @CreationTimestamp
+    @Convert(converter = TimestampAttributeConverter.class)
     private LocalDateTime resolutionDate;
 
-    private int userID;
     private String description;
 
     public Resolution() {}
-
-    public Resolution(LocalDateTime resolutionDate, String description) {
-        this.resolutionDate = resolutionDate;
-        this.description = description;
-    }
 
     public int getId() {
         return id;
@@ -33,14 +29,6 @@ public class Resolution {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public int getUserId() {
-        return userID;
-    }
-
-    public void setUserId(int userID) {
-        this.userID = userID;
     }
 
     public LocalDateTime getResolutionDate() {
