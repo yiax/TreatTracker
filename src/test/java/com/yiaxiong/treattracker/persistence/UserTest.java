@@ -53,20 +53,18 @@ public class UserTest {
      */
     @Test
     public void testUpdateUser() throws Exception {
-        User user = users.get(1);
+        User user = users.get(0);
         int id = user.getId();
-        String emailBeforeUpdate = user.getEmail();
 
-        String newEmail = "test";
-        user.setEmail(user.getEmail() + newEmail);
+        String newEmail = user.getEmail() + "test";
+        user.setEmail(newEmail);
 
         dao.saveOrUpdate(user);
 
         User updatedUser = (User) dao.getById(id);
         logger.debug("user: " + user.toString());
         logger.debug("updatedUser: " + updatedUser.toString());
-        //assertTrue(user.equals(updatedUser));
-        assertEquals(user, updatedUser);
+        assertTrue(user.equals(updatedUser));
     }
 
     /**
@@ -117,8 +115,8 @@ public class UserTest {
      */
     @Test
     public void testGetAllUsersWithLastNameExact() throws Exception {
-        users = dao.findByPropertyEqual("lastName", "Wagner");
+        users = dao.findByPropertyEqual("lastName", "Yates");
         assertTrue(users.size() > 0);
-        assertTrue(users.get(0).getFirstName().equals("Unit1"));
+        assertTrue(users.get(0).getFirstName().equals("Kerys"));
     }
 }

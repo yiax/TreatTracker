@@ -156,9 +156,11 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "firstName='" + firstName + '\'' +
+                "id='" + id + '\'' +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
+                ", userName='" + userName + '\'' +
                 '}';
     }
 
@@ -177,8 +179,7 @@ public class User {
                 Objects.equals(lastName, user.lastName) &&
                 Objects.equals(email, user.email) &&
                 Objects.equals(userName, user.userName) &&
-                Objects.equals(password, user.password) &&
-                Objects.equals(incidents, user.incidents);
+                Objects.equals(password, user.password);
     }
 
     /**
@@ -187,6 +188,6 @@ public class User {
      */
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, lastName, email, userName, password, incidents);
+        return Objects.hash(id, firstName, lastName, email, userName, password);
     }
 }

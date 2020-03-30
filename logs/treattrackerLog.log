@@ -376,3 +376,87 @@
 [DEBUG] 2020-03-30 00:25:22.117 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
 [DEBUG] 2020-03-30 00:25:22.118 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@649b5891
 [DEBUG] 2020-03-30 00:25:22.255 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 10:43:28.109 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 10:43:28.114 [main] Database - root
+[ERROR] 2020-03-30 10:43:28.548 [main] Database - error: java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-30 10:46:10.556 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 10:46:10.559 [main] Database - root
+[DEBUG] 2020-03-30 10:46:12.911 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 10:46:12.911 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@77c66a4f
+[DEBUG] 2020-03-30 10:46:13.054 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 10:48:25.001 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 10:48:25.004 [main] Database - root
+[DEBUG] 2020-03-30 10:48:27.350 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 10:48:27.350 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@55d8c2c4
+[DEBUG] 2020-03-30 10:48:27.480 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[INFO ] 2020-03-30 11:01:14.944 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:01:14.947 [main] Database - root
+[DEBUG] 2020-03-30 11:01:17.225 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 11:01:17.225 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@489110c2
+[DEBUG] 2020-03-30 11:01:17.382 [main] GenericDao - The list of entities [User{firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com'}, User{firstName='Faye', lastName='Odling', email='fodling@treattracker.com'}, User{firstName='Kerys', lastName='Yates', email='kyates@treattracker.com'}, User{firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com'}, User{firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com'}, User{firstName='Abraham', lastName='Warren', email='awarren@treattracker.com'}]
+[DEBUG] 2020-03-30 11:01:17.425 [main] UserTest - user: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest'}
+[DEBUG] 2020-03-30 11:01:17.426 [main] UserTest - updatedUser: User{firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest'}
+[INFO ] 2020-03-30 11:28:04.253 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:28:04.256 [main] Database - root
+[DEBUG] 2020-03-30 11:28:06.397 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 11:28:06.397 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@55d8c2c4
+[DEBUG] 2020-03-30 11:28:06.532 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 11:28:06.572 [main] UserTest - user: User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest', userName='folding'}
+[DEBUG] 2020-03-30 11:28:06.572 [main] UserTest - updatedUser: User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.comtest', userName='folding'}
+[INFO ] 2020-03-30 11:31:31.222 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:31:31.225 [main] Database - root
+[DEBUG] 2020-03-30 11:31:33.529 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 11:31:33.530 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@150fc7a7
+[DEBUG] 2020-03-30 11:31:33.668 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 11:31:33.714 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-03-30 11:31:33.714 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-03-30 11:34:08.646 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:34:08.649 [main] Database - root
+[DEBUG] 2020-03-30 11:34:10.855 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 11:34:10.855 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@634e1b39
+[DEBUG] 2020-03-30 11:34:10.987 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 11:34:11.027 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-03-30 11:34:11.027 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-03-30 11:37:23.140 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:37:23.143 [main] Database - root
+[DEBUG] 2020-03-30 11:37:25.470 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 11:37:25.471 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@6e9a10cd
+[DEBUG] 2020-03-30 11:37:25.616 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 11:37:25.658 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-03-30 11:37:25.659 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-03-30 11:37:36.164 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:37:36.168 [main] Database - root
+[DEBUG] 2020-03-30 11:37:38.535 [main] GenericDao - type: class com.yiaxiong.treattracker.entity.User
+[DEBUG] 2020-03-30 11:37:38.536 [main] GenericDao - query: org.hibernate.query.criteria.internal.CriteriaQueryImpl@150fc7a7
+[DEBUG] 2020-03-30 11:37:38.664 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 11:37:38.705 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-03-30 11:37:38.705 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-03-30 11:42:12.503 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:42:12.506 [main] Database - root
+[DEBUG] 2020-03-30 11:42:14.913 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 11:42:14.953 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-03-30 11:42:14.953 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-03-30 11:43:18.470 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:43:18.473 [main] Database - root
+[DEBUG] 2020-03-30 11:43:20.902 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 11:43:20.944 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-03-30 11:43:20.944 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-03-30 11:45:04.181 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:45:04.184 [main] Database - root
+[DEBUG] 2020-03-30 11:45:06.524 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-03-30 11:56:00.674 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 11:56:00.677 [main] Database - root
+[INFO ] 2020-03-30 12:06:00.131 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:06:00.134 [main] Database - root
+[INFO ] 2020-03-30 12:09:45.581 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:09:45.584 [main] Database - root
+[INFO ] 2020-03-30 12:13:07.132 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:13:07.135 [main] Database - root
+[INFO ] 2020-03-30 12:14:08.191 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:14:08.194 [main] Database - root
+[INFO ] 2020-03-30 12:15:53.656 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:15:53.660 [main] Database - root
+[INFO ] 2020-03-30 12:17:33.018 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:17:33.021 [main] Database - root
+[INFO ] 2020-03-30 12:17:52.116 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:17:52.119 [main] Database - root

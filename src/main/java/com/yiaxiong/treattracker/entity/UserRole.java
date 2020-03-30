@@ -15,8 +15,9 @@ public class UserRole {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @OneToOne(mappedBy = "user_role", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    private String role;
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="id")
+    private Role role;
 
     @CreationTimestamp
     @Convert(converter = TimestampAttributeConverter.class)
@@ -26,23 +27,24 @@ public class UserRole {
     @Convert(converter = TimestampAttributeConverter.class)
     private LocalDateTime updateDate;
 
-    @OneToOne(mappedBy = "user_role", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    private String userName;
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="userName")
+    private User user;
 
     public UserRole () {}
 
-    public UserRole(String role, String userName) {
+    public UserRole(Role role, User user) {
         this.role = role;
-        this.userName = userName;
+        this.user = user;
     }
 
     public int getId() { return id; }
 
     public void setId(int id) { this.id = id; }
 
-    public String getRole() { return role; }
+    public Role getRole() { return role; }
 
-    public void setRole(String role) { this.role = role; }
+    public void setRole(Role role) { this.role = role; }
 
     public LocalDateTime getCreateDate() { return createDate; }
 
@@ -52,7 +54,7 @@ public class UserRole {
 
     public void setUpdateDate(LocalDateTime updateDate) { this.updateDate = updateDate; }
 
-    public String getUserName() { return userName; }
+    public User getUser() { return user; }
 
-    public void setUserName(String userName) { this.userName = userName; }
+    public void setUserName(User user) { this.user = user; }
 }

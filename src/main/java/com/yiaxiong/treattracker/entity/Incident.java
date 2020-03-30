@@ -25,7 +25,7 @@ public class Incident {
     private Resolution resolution;
 
     @ManyToOne
-    @JoinColumn(name="id", referencedColumnName = "id", insertable = false, updatable = false)
+  //  @JoinColumn(name="id", referencedColumnName = "id", insertable = false, updatable = false)
     private User user;
 
     private String description;

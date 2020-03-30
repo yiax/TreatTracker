@@ -19,7 +19,8 @@
         <mapping class="com.yiaxiong.treattracker.entity.User"/>
         <mapping class="com.yiaxiong.treattracker.entity.Incident"/>
         <mapping class="com.yiaxiong.treattracker.entity.Resolution"/>
-
+        <mapping class="com.yiaxiong.treattracker.entity.UserRole" />
+        <mapping class="com.yiaxiong.treattracker.entity.Role" />
     </session-factory>
 
 </hibernate-configuration>
