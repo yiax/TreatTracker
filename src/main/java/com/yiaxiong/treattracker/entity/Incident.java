@@ -5,11 +5,12 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Entity(name="Incident")
 @Table(name="incident")
-public class Incident {
+public class Incident implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -18,14 +19,14 @@ public class Incident {
 
     @CreationTimestamp
     @Convert(converter = TimestampAttributeConverter.class)
-    private LocalDateTime incidentDate;
+    private LocalDateTime incident_date;
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="id")
     private Resolution resolution;
 
     @ManyToOne
-  //  @JoinColumn(name="id", referencedColumnName = "id", insertable = false, updatable = false)
+    @JoinColumn(name="email")
     private User user;
 
     private String description;
@@ -33,7 +34,7 @@ public class Incident {
     public Incident() {}
 
     public Incident(LocalDateTime incidentDate, String description) {
-        this.incidentDate = incidentDate;
+        this.incident_date = incidentDate;
         this.description = description;
     }
 
@@ -45,12 +46,12 @@ public class Incident {
         this.id = id;
     }
 
-    public LocalDateTime getIncidentDate() {
-        return incidentDate;
+    public LocalDateTime getIncident_date() {
+        return incident_date;
     }
 
-    public void setIncidentDate(LocalDateTime incidentDate) {
-        this.incidentDate = incidentDate;
+    public void setIncident_date(LocalDateTime incident_date) {
+        this.incident_date = incident_date;
     }
 
     public User getUser() { return user; }

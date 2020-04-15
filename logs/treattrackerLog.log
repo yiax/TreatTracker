@@ -460,3 +460,168 @@
 [DEBUG] 2020-03-30 12:17:33.021 [main] Database - root
 [INFO ] 2020-03-30 12:17:52.116 [main] Database - properties loaded.
 [DEBUG] 2020-03-30 12:17:52.119 [main] Database - root
+[INFO ] 2020-03-30 12:19:14.733 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:19:14.736 [main] Database - root
+[INFO ] 2020-03-30 12:20:15.642 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:20:15.645 [main] Database - root
+[INFO ] 2020-03-30 12:20:56.099 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:20:56.102 [main] Database - root
+[INFO ] 2020-03-30 12:22:31.220 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:22:31.223 [main] Database - root
+[INFO ] 2020-03-30 12:22:59.063 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:22:59.065 [main] Database - root
+[INFO ] 2020-03-30 12:24:53.140 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:24:53.143 [main] Database - root
+[INFO ] 2020-03-30 12:26:30.376 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:26:30.384 [main] Database - root
+[INFO ] 2020-03-30 12:27:12.461 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:27:12.466 [main] Database - root
+[DEBUG] 2020-03-30 12:27:14.899 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-03-30 12:27:25.110 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:27:25.114 [main] Database - root
+[DEBUG] 2020-03-30 12:27:27.636 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 12:27:27.676 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-03-30 12:27:27.676 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-03-30 12:27:34.773 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:27:34.776 [main] Database - root
+[DEBUG] 2020-03-30 12:27:37.197 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-03-30 12:27:49.320 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:27:49.323 [main] Database - root
+[DEBUG] 2020-03-30 12:27:51.717 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-03-30 12:27:58.213 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:27:58.217 [main] Database - root
+[DEBUG] 2020-03-30 12:28:00.659 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-03-30 12:28:11.809 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:28:11.812 [main] Database - root
+[DEBUG] 2020-03-30 12:28:14.186 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-03-30 12:29:02.877 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:29:02.880 [main] Database - root
+[INFO ] 2020-03-30 12:29:14.624 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:29:14.627 [main] Database - root
+[DEBUG] 2020-03-30 12:29:17.010 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-03-30 12:29:17.049 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-03-30 12:29:17.049 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-03-30 12:29:35.701 [main] Database - properties loaded.
+[DEBUG] 2020-03-30 12:29:35.704 [main] Database - root
+[DEBUG] 2020-03-30 12:29:38.111 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-03-31 17:40:42.481 [main] Database - properties loaded.
+[DEBUG] 2020-03-31 17:40:42.484 [main] Database - root
+[ERROR] 2020-03-31 17:40:42.904 [main] Database - error: java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-03-31 17:42:19.356 [main] Database - properties loaded.
+[DEBUG] 2020-03-31 17:42:19.360 [main] Database - root
+[DEBUG] 2020-03-31 17:42:21.858 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 09:47:01.023 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 09:47:01.027 [main] Database - root
+[ERROR] 2020-04-15 09:47:01.432 [main] Database - error: java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2020-04-15 09:48:15.561 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 09:48:15.565 [main] Database - root
+[DEBUG] 2020-04-15 09:48:18.089 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 10:32:28.135 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 10:32:28.138 [main] Database - root
+[ERROR] 2020-04-15 10:32:29.012 [main] Database - error: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*
+CREATE TABLE user_role (
+    id int(11) NOT NULL,
+    createDate datetime NOT' at line 13
+[DEBUG] 2020-04-15 10:32:30.348 [main] GenericDao - The list of entities []
+[INFO ] 2020-04-15 10:34:24.955 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 10:34:24.958 [main] Database - root
+[DEBUG] 2020-04-15 10:34:27.177 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='fodling@treattracker.com', userName='folding'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 13:53:02.021 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 13:53:02.024 [main] Database - root
+[ERROR] 2020-04-15 13:53:02.318 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2020-04-15 13:53:03.560 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2020-04-15 13:53:03.576 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2020-04-15 13:53:03.593 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2020-04-15 13:53:03.609 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[INFO ] 2020-04-15 13:53:50.481 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 13:53:50.483 [main] Database - root
+[ERROR] 2020-04-15 13:53:50.767 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2020-04-15 13:53:51.972 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2020-04-15 13:53:51.990 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2020-04-15 13:53:52.006 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2020-04-15 13:53:52.023 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[INFO ] 2020-04-15 13:54:11.791 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 13:54:11.794 [main] Database - root
+[ERROR] 2020-04-15 13:54:12.230 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[INFO ] 2020-04-15 14:11:17.881 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:11:17.884 [main] Database - root
+[ERROR] 2020-04-15 14:11:18.329 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[INFO ] 2020-04-15 14:12:00.057 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:12:00.066 [main] Database - root
+[ERROR] 2020-04-15 14:12:00.426 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[INFO ] 2020-04-15 14:12:15.615 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:12:15.618 [main] Database - root
+[ERROR] 2020-04-15 14:12:16.071 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[INFO ] 2020-04-15 14:16:21.037 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:16:21.039 [main] Database - root
+[ERROR] 2020-04-15 14:16:21.597 [main] Database - error: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[INFO ] 2020-04-15 14:17:33.354 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:17:33.357 [main] Database - root
+[ERROR] 2020-04-15 14:17:34.103 [main] Database - error: java.sql.SQLException: Cannot add foreign key constraint
+[INFO ] 2020-04-15 14:18:25.174 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:18:25.177 [main] Database - root
+[ERROR] 2020-04-15 14:18:25.723 [main] Database - error: java.sql.SQLException: Cannot add foreign key constraint
+[INFO ] 2020-04-15 14:23:39.152 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:23:39.155 [main] Database - root
+[INFO ] 2020-04-15 14:27:26.526 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:27:26.529 [main] Database - root
+[INFO ] 2020-04-15 14:29:25.108 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:29:25.113 [main] Database - root
+[INFO ] 2020-04-15 14:30:08.315 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:30:08.318 [main] Database - root
+[INFO ] 2020-04-15 14:34:31.457 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:34:31.460 [main] Database - root
+[INFO ] 2020-04-15 14:37:48.756 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:37:48.763 [main] Database - root
+[INFO ] 2020-04-15 14:40:19.559 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:40:19.562 [main] Database - root
+[DEBUG] 2020-04-15 14:40:22.107 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:40:37.297 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:40:37.300 [main] Database - root
+[DEBUG] 2020-04-15 14:40:39.813 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-04-15 14:40:39.849 [main] UserTest - user: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[DEBUG] 2020-04-15 14:40:39.849 [main] UserTest - updatedUser: User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.comtest', userName='lmcmanus'}
+[INFO ] 2020-04-15 14:40:45.333 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:40:45.339 [main] Database - root
+[DEBUG] 2020-04-15 14:40:47.871 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[DEBUG] 2020-04-15 14:40:47.919 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:40:53.826 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:40:53.829 [main] Database - root
+[DEBUG] 2020-04-15 14:40:56.334 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:41:08.639 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:41:08.642 [main] Database - root
+[DEBUG] 2020-04-15 14:41:11.138 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:41:47.249 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:41:47.252 [main] Database - root
+[DEBUG] 2020-04-15 14:41:49.913 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:56:59.255 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:56:59.258 [main] Database - root
+[DEBUG] 2020-04-15 14:57:01.795 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:58:34.513 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:58:34.516 [main] Database - root
+[DEBUG] 2020-04-15 14:58:37.063 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:58:37.066 [main] UserTest - [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:59:33.456 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 14:59:33.459 [main] Database - root
+[DEBUG] 2020-04-15 14:59:35.974 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 14:59:35.977 [main] UserTest - [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 15:00:58.893 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 15:00:58.897 [main] Database - root
+[DEBUG] 2020-04-15 15:01:01.531 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 15:01:01.535 [main] UserTest - 6
+[INFO ] 2020-04-15 15:01:41.352 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 15:01:41.356 [main] Database - root
+[DEBUG] 2020-04-15 15:01:43.811 [main] GenericDao - The list of entities [User{id='1', firstName='Layla', lastName='Mcmanus', email='lmcmanus@treattracker.com', userName='lmcmanus'}, User{id='2', firstName='Faye', lastName='Odling', email='folding@treattracker.com', userName='fodling'}, User{id='3', firstName='Kerys', lastName='Yates', email='kyates@treattracker.com', userName='kyates'}, User{id='4', firstName='Jeanne', lastName='Bate', email='jbate@treattracker.com', userName='jbate'}, User{id='5', firstName='Abid', lastName='Duggan', email='aduggan@treattracker.com', userName='aduggan'}, User{id='6', firstName='Abraham', lastName='Warren', email='awarren@treattracker.com', userName='awarren'}]
+[INFO ] 2020-04-15 15:01:43.814 [main] UserTest - 6
+[INFO ] 2020-04-15 15:03:40.299 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 15:03:40.302 [main] Database - root
+[DEBUG] 2020-04-15 15:03:42.804 [main] GenericDao - The list of entities [com.yiaxiong.treattracker.entity.Role@f03ee8f, com.yiaxiong.treattracker.entity.Role@4438938e]
+[INFO ] 2020-04-15 15:04:03.367 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 15:04:03.370 [main] Database - root
+[DEBUG] 2020-04-15 15:04:05.878 [main] GenericDao - The list of entities [com.yiaxiong.treattracker.entity.Role@1c6e3ff9, com.yiaxiong.treattracker.entity.Role@33f4c769]
+[INFO ] 2020-04-15 15:05:03.837 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 15:05:03.840 [main] Database - root
+[DEBUG] 2020-04-15 15:05:06.341 [main] GenericDao - The list of entities [com.yiaxiong.treattracker.entity.Role@1c6e3ff9, com.yiaxiong.treattracker.entity.Role@33f4c769]
+[INFO ] 2020-04-15 15:05:18.289 [main] Database - properties loaded.
+[DEBUG] 2020-04-15 15:05:18.294 [main] Database - root
+[DEBUG] 2020-04-15 15:05:20.883 [main] GenericDao - The list of entities [com.yiaxiong.treattracker.entity.Role@1c68d0db, com.yiaxiong.treattracker.entity.Role@609b041c]

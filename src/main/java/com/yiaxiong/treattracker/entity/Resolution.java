@@ -4,11 +4,12 @@ import com.yiaxiong.treattracker.util.TimestampAttributeConverter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Entity(name="Resolution")
 @Table(name="resolution")
-public class Resolution {
+public class Resolution implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")

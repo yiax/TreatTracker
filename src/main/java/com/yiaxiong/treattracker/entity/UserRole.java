@@ -4,31 +4,24 @@ import com.yiaxiong.treattracker.util.TimestampAttributeConverter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Entity(name="UserRole")
 @Table(name="user_role")
-public class UserRole {
+public class UserRole implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="id")
+    @ManyToOne
+    @JoinColumn(name="role")
     private Role role;
 
-    @CreationTimestamp
-    @Convert(converter = TimestampAttributeConverter.class)
-    private LocalDateTime createDate;
-
-    @CreationTimestamp
-    @Convert(converter = TimestampAttributeConverter.class)
-    private LocalDateTime updateDate;
-
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="userName")
+    @ManyToOne
+    @JoinColumn(name="user_name")
     private User user;
 
     public UserRole () {}
@@ -45,14 +38,6 @@ public class UserRole {
     public Role getRole() { return role; }
 
     public void setRole(Role role) { this.role = role; }
-
-    public LocalDateTime getCreateDate() { return createDate; }
-
-    public void setCreateDate(LocalDateTime createDate) { this.createDate = createDate; }
-
-    public LocalDateTime getUpdateDate() { return updateDate; }
-
-    public void setUpdateDate(LocalDateTime updateDate) { this.updateDate = updateDate; }
 
     public User getUser() { return user; }
 

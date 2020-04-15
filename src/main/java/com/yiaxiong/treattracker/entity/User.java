@@ -2,13 +2,14 @@ package com.yiaxiong.treattracker.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
 @Entity(name="User")
 @Table(name="user")
-public class User {
+public class User implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -18,31 +19,35 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Incident> incidents = new HashSet<>();
 
-    private String firstName;
-    private String lastName;
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<UserRole> roles = new HashSet<>();
+
+    private String first_name;
+    private String last_name;
     private String email;
-    private String userName;
+    private String user_name;
     private String password;
 
     /**
      * Instantiate a new User; the empty constructor
      */
-    public User() {}
+    public User() {setIncidents();}
 
     /**
      * Instantiate a new User; the argument constructor
-     * @param firstName the first name
-     * @param lastName the last name
+     * @param first_name the first name
+     * @param last_name the last name
      * @param email the email
-     * @param userName the user name
+     * @param user_name the user name
      * @param password the password
      */
-    public User(String firstName, String lastName, String email, String userName, String password) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public User(String first_name, String last_name, String email, String user_name, String password) {
+        this.first_name = first_name;
+        this.last_name = last_name;
         this.email = email;
-        this.userName = userName;
+        this.user_name = user_name;
         this.password = password;
+        setIncidents();
     }
 
     /**
@@ -57,32 +62,32 @@ public class User {
      * Get firstName
      * @return firstName
      */
-    public String getFirstName() {
-        return firstName;
+    public String getFirst_name() {
+        return first_name;
     }
 
     /**
      * Set firstName
-     * @param firstName the first name
+     * @param first_name the first name
      */
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setFirst_name(String first_name) {
+        this.first_name = first_name;
     }
 
     /**
      * Get lastName
      * @return lastName
      */
-    public String getLastName() {
-        return lastName;
+    public String getLast_name() {
+        return last_name;
     }
 
     /**
      * Set lastName
-     * @param lastName the last name
+     * @param last_name the last name
      */
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLast_name(String last_name) {
+        this.last_name = last_name;
     }
 
     /**
@@ -105,16 +110,16 @@ public class User {
      * Get userName
      * @return userName
      */
-    public String getUserName() {
-        return userName;
+    public String getUser_name() {
+        return user_name;
     }
 
     /**
      * Set userName
-     * @param userName the user name
+     * @param user_name the user name
      */
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
     }
 
     /**
@@ -143,10 +148,26 @@ public class User {
 
     /**
      * Set incidents
-     * @param incidents the incidents
      */
-    public void setIncidents(Set<Incident> incidents) {
-        this.incidents = incidents;
+    private void setIncidents() {
+        //TODO
+        //retrieve incidents for a user in the db
+        //add each incident to the set
+    }
+
+    /**
+     * Get role
+     * @return roles
+     */
+    public Set<UserRole> getRoles() {
+        return roles;
+    }
+
+    /**
+     * Set roles
+     */
+    public void setRoles(Set<UserRole> roles) {
+        this.roles = roles;
     }
 
     /**
@@ -157,10 +178,10 @@ public class User {
     public String toString() {
         return "User{" +
                 "id='" + id + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
+                ", firstName='" + first_name + '\'' +
+                ", lastName='" + last_name + '\'' +
                 ", email='" + email + '\'' +
-                ", userName='" + userName + '\'' +
+                ", userName='" + user_name + '\'' +
                 '}';
     }
 
@@ -175,10 +196,10 @@ public class User {
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
         return id == user.id &&
-                Objects.equals(firstName, user.firstName) &&
-                Objects.equals(lastName, user.lastName) &&
+                Objects.equals(first_name, user.first_name) &&
+                Objects.equals(last_name, user.last_name) &&
                 Objects.equals(email, user.email) &&
-                Objects.equals(userName, user.userName) &&
+                Objects.equals(user_name, user.user_name) &&
                 Objects.equals(password, user.password);
     }
 
@@ -188,6 +209,6 @@ public class User {
      */
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, lastName, email, userName, password);
+        return Objects.hash(id, first_name, last_name, email, user_name, password);
     }
 }
