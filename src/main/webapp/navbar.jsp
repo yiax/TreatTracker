@@ -5,6 +5,7 @@
   Time: 11:09 AM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <nav class="navbar navbar-expand-md bg-white">
     <a class="navbar-brand" href="#">LOGO</a>
     <ul class="navbar-nav mr-auto">
@@ -34,16 +35,16 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="Login" class="needs-validation" novalidate>
+                <form action="j_security_check" method="post" class="needs-validation" novalidate>
                     <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                        <label for="user_name">User Name:</label>
+                        <input type="text" class="form-control" id="user_name" placeholder="Enter User Name" name="j_username" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please enter your email.</div>
                     </div>
                     <div class="form-group">
                         <label for="password">Password:</label>
-                        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" required>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password" name="j_password" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please enter your password.</div>
                     </div>

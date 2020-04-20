@@ -1,0 +1,8 @@
+<Context docBase="treatTracker" path="/treatTracker" reloadable="true">
+    <Realm className="org.apache.catalina.realm.JDBCRealm"
+           driverName="com.mysql.cj.jdbc.Driver"
+           connectionURL="jdbc:mysql://localhost:3306/treat_tracker?user=root&amp;password=riC3f33D"
+           userTable="user" userNameCol="user_name" userCredCol="password"
+           userRoleTable="user_role" roleNameCol="role" >
+    </Realm>
+</Context>

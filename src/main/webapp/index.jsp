@@ -12,7 +12,7 @@
 <div class="container">
     <jsp:include page="navbar.jsp" />
     <h1>Hello World!</h1>
-    <a href="home.jsp">User Home</a>
+    <a href="com/yiaxiong/treattracker/controller/view-users">User Home</a>
 </div>
 </body>
 </html>

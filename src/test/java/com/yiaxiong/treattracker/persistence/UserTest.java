@@ -66,6 +66,8 @@ public class UserTest {
         assertTrue(users.get(5).getLast_name().equals("Warren"));
         assertTrue(users.get(5).getEmail().equals("awarren@treattracker.com"));
         assertTrue(users.get(5).getUser_name().equals("awarren"));
+
+        logger.debug("GetAllTestPass");
     }
 
     /**
