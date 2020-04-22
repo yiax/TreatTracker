@@ -1,6 +1,7 @@
 package com.yiaxiong.treattracker.persistence;
 
 import com.yiaxiong.treattracker.entity.Role;
+import com.yiaxiong.treattracker.entity.User;
 import com.yiaxiong.treattracker.util.Database;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -41,16 +42,10 @@ public class RoleTest {
     @Test
     public void testGetAllRoles() throws Exception {
         assertTrue(roles.size() > 0);
-        assertTrue(roles.size() == 2);
+        assertTrue(roles.size() == 6);
         logger.info(roles.get(0).getRole());
-        for (Role role : roles ) {
-            if (role.getId() == 1) {
-                assertTrue(role.getRole().equals("basic"));
-            }
-            if (role.getId() == 2) {
-                assertTrue(role.getRole().equals("admin"));
-            }
-        }
+        assertTrue(roles.get(0).getUser().getUserName().equals("lmcmanus"));
+        assertTrue(roles.get(0).getRole().equals("basic"));
     }
 
     /**
@@ -103,8 +98,12 @@ public class RoleTest {
 
         int insertedRoleId = 0;
 
+        User testUser = new User("TestFirstName", "TestLastName", "testemail@treattracker.com", "testUserName", "testPassword");
+        dao.insert(testUser);
+
         Role role = new Role();
         role.setRole("testRole");
+        role.setUser(testUser);
 
         insertedRoleId = dao.insert(role);
         Role retrievedUser = (Role) dao.getById(insertedRoleId);

@@ -7,8 +7,11 @@
         <property name="connection.url">jdbc:mysql://localhost:3306/treat_tracker</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
-        <property name="connection.username">${database.username}</property>
-        <property name="connection.password">${database.password}</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">riC3f33D</property>
+        <!--
+        <property name="connection.username">${db.username}</property>
+        <property name="connection.password">${db.password}</property>-->
 
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>
@@ -20,7 +23,6 @@
         <mapping class="com.yiaxiong.treattracker.entity.Incident"/>
         <mapping class="com.yiaxiong.treattracker.entity.Resolution"/>
         <mapping class="com.yiaxiong.treattracker.entity.Role" />
-        <mapping class="com.yiaxiong.treattracker.entity.UserRole" />
 
     </session-factory>
 

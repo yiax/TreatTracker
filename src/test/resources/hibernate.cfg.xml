@@ -20,7 +20,6 @@
         <mapping class="com.yiaxiong.treattracker.entity.Incident"/>
         <mapping class="com.yiaxiong.treattracker.entity.Resolution"/>
         <mapping class="com.yiaxiong.treattracker.entity.Role" />
-        <mapping class="com.yiaxiong.treattracker.entity.UserRole" />
 
     </session-factory>
 

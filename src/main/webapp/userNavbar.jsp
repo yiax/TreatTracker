@@ -6,18 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <nav class="navbar navbar-expand-md bg-white">
-    <a class="navbar-brand" href="#">LOGO</a>
+    <a class="navbar-brand" href="index.jsp">LOGO</a>
     <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-            <a class="nav-link text-dark" href="home.jsp">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" data-toggle="modal" data-target="#resolveModal" href="#">Resolve an Incident</a>
+            <a class="nav-link text-dark" href="user-home">My Dashboard</a>
         </li>
     </ul>
     <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="#">My Account</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.jsp">Exit</a></li>
+        <li class="nav-item"><a class="nav-link" href="admin.jsp">Admin</a></li>
     </ul>
 </nav>
 

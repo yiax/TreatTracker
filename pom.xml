@@ -21,6 +21,7 @@
     <maven-compiler-plugin-version>3.8.1</maven-compiler-plugin-version>
     <maven-surefire-plugin-version>2.19</maven-surefire-plugin-version>
     <mysql-version>8.0.16</mysql-version>
+    <lombok-verion>1.18.10</lombok-verion>
   </properties>
 
   <dependencies>
@@ -88,6 +89,13 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>${mysql-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombok-verion}</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 

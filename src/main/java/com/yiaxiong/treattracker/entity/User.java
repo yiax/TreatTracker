@@ -19,9 +19,6 @@ public class User implements Serializable{
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Incident> incidents = new HashSet<>();
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<UserRole> roles = new HashSet<>();
-
     private String first_name;
     private String last_name;
     private String email;
@@ -62,7 +59,7 @@ public class User implements Serializable{
      * Get firstName
      * @return firstName
      */
-    public String getFirst_name() {
+    public String getFirstName() {
         return first_name;
     }
 
@@ -70,7 +67,7 @@ public class User implements Serializable{
      * Set firstName
      * @param first_name the first name
      */
-    public void setFirst_name(String first_name) {
+    public void setFirstName(String first_name) {
         this.first_name = first_name;
     }
 
@@ -78,7 +75,7 @@ public class User implements Serializable{
      * Get lastName
      * @return lastName
      */
-    public String getLast_name() {
+    public String getLastName() {
         return last_name;
     }
 
@@ -86,7 +83,7 @@ public class User implements Serializable{
      * Set lastName
      * @param last_name the last name
      */
-    public void setLast_name(String last_name) {
+    public void setLastName(String last_name) {
         this.last_name = last_name;
     }
 
@@ -110,7 +107,7 @@ public class User implements Serializable{
      * Get userName
      * @return userName
      */
-    public String getUser_name() {
+    public String getUserName() {
         return user_name;
     }
 
@@ -118,7 +115,7 @@ public class User implements Serializable{
      * Set userName
      * @param user_name the user name
      */
-    public void setUser_name(String user_name) {
+    public void setUserName(String user_name) {
         this.user_name = user_name;
     }
 
@@ -153,21 +150,6 @@ public class User implements Serializable{
         //TODO
         //retrieve incidents for a user in the db
         //add each incident to the set
-    }
-
-    /**
-     * Get role
-     * @return roles
-     */
-    public Set<UserRole> getRoles() {
-        return roles;
-    }
-
-    /**
-     * Set roles
-     */
-    public void setRoles(Set<UserRole> roles) {
-        this.roles = roles;
     }
 
     /**

@@ -18,8 +18,8 @@
   <!-- Protect the display page. -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>Basic</web-resource-name>
-      <url-pattern>/basicHome.jsp</url-pattern>
+      <web-resource-name>Home</web-resource-name>
+      <url-pattern>/home.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>basic</role-name>
@@ -31,7 +31,7 @@
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>Admin</web-resource-name>
-      <url-pattern>/adminHome.jsp</url-pattern>
+      <url-pattern>/admin.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>
@@ -45,13 +45,6 @@
     <role-name>basic</role-name>
   </security-role>
 
-  <servlet>
-    <servlet-name>myservlet</servlet-name>
-    <servlet-class>com.yiaxiong.treattracker.controller.GetAllUsers</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>myservlet</servlet-name>
-    <url-pattern>/foo/*</url-pattern>
-  </servlet-mapping>
+
 
 </web-app>

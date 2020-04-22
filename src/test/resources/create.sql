@@ -23,9 +23,15 @@ create table user
 
 create table role
 (
-    id   int auto_increment primary key,
-    role varchar(20) not null,
-    constraint role_role_uindex unique (role)
+    id        int auto_increment
+        primary key,
+    user_name varchar(20) not null,
+    role      varchar(20) not null,
+    constraint role_user_name_uindex
+        unique (user_name),
+    constraint role_user_user_name_fk
+        foreign key (user_name) references user (user_name)
+            on update cascade on delete cascade
 );
 
 create table resolution
@@ -49,19 +55,6 @@ create table incident
     constraint incident_user_email_fk foreign key (email) references user (email) on update cascade on delete cascade
 );
 
-create table user_role
-(
-    id        int auto_increment primary key,
-    user_name varchar(20) not null,
-    role      varchar(20) not null,
-    constraint user_role_user_name_role_uindex unique (user_name, role),
-    constraint user_role_role_role_fk foreign key (role) references role (role) on update cascade on delete cascade,
-    constraint user_role_user_user_name_fk foreign key (user_name) references user (user_name) on update cascade on delete cascade
-);
-
-INSERT INTO treat_tracker_test.role (id, role) VALUES (1, 'basic');
-INSERT INTO treat_tracker_test.role (id, role) VALUES (2, 'admin');
-
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (1, 'Layla', 'Mcmanus', 'lmcmanus', 'lmcmanus@treattracker.com', 'password1');
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (2, 'Faye', 'Odling', 'fodling', 'folding@treattracker.com', 'password2');
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (3, 'Kerys', 'Yates', 'kyates', 'kyates@treattracker.com', 'password3');
@@ -69,14 +62,12 @@ INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (5, 'Abid', 'Duggan', 'aduggan', 'aduggan@treattracker.com', 'password5');
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (6, 'Abraham', 'Warren', 'awarren', 'awarren@treattracker.com', 'password6');
 
-INSERT INTO treat_tracker_test.user_role (id, user_name, role) VALUES (8, 'aduggan', 'admin');
-INSERT INTO treat_tracker_test.user_role (id, user_name, role) VALUES (7, 'aduggan', 'basic');
-INSERT INTO treat_tracker_test.user_role (id, user_name, role) VALUES (9, 'awarren', 'basic');
-INSERT INTO treat_tracker_test.user_role (id, user_name, role) VALUES (4, 'fodling', 'admin');
-INSERT INTO treat_tracker_test.user_role (id, user_name, role) VALUES (3, 'fodling', 'basic');
-INSERT INTO treat_tracker_test.user_role (id, user_name, role) VALUES (6, 'jbate', 'basic');
-INSERT INTO treat_tracker_test.user_role (id, user_name, role) VALUES (5, 'kyates', 'basic');
-INSERT INTO treat_tracker_test.user_role (id, user_name, role) VALUES (2, 'lmcmanus', 'basic');
+INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (1, 'lmcmanus', 'basic');
+INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (2, 'fodling', 'admin');
+INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (3, 'kyates', 'basic');
+INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (4, 'jbate', 'basic');
+INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (5, 'aduggan', 'admin');
+INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (6, 'awarren', 'basic');
 
 INSERT INTO treat_tracker_test.resolution (id, user_name, resolution_date, description) VALUES (1, 'jbate', '2019-11-15 12:50:56', 'treats in break room');
 INSERT INTO treat_tracker_test.resolution (id, user_name, resolution_date, description) VALUES (2, 'aduggan', '2020-01-11 12:51:13', 'donuts at my desk');
