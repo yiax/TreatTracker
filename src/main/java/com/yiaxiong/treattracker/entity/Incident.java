@@ -5,11 +5,16 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import lombok.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Entity(name="Incident")
 @Table(name="incident")
+@Getter
+@Setter
+@ToString
+@EqualsAndHashCode
 public class Incident implements Serializable {
 
     @Id
@@ -19,6 +24,7 @@ public class Incident implements Serializable {
 
     @CreationTimestamp
     @Convert(converter = TimestampAttributeConverter.class)
+    @EqualsAndHashCode.Exclude
     private LocalDateTime incident_date;
 
     @OneToOne(fetch = FetchType.LAZY)
@@ -26,13 +32,13 @@ public class Incident implements Serializable {
     private Resolution resolution;
 
     @ManyToOne
-    @JoinColumn(name="email")
+    @JoinColumn(name="email", referencedColumnName = "email")
     private User user;
 
     private String description;
 
     public Incident() {}
-
+/*
     public Incident(LocalDateTime incidentDate, String description) {
         this.incident_date = incidentDate;
         this.description = description;
@@ -72,6 +78,6 @@ public class Incident implements Serializable {
 
     public void setResolution(Resolution resolution) {
         this.resolution = resolution;
-    }
+    }*/
 
 }

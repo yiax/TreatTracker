@@ -6,9 +6,14 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import lombok.*;
 
 @Entity(name="Resolution")
 @Table(name="resolution")
+@Getter
+@Setter
+@ToString
+@EqualsAndHashCode
 public class Resolution implements Serializable {
 
     @Id
@@ -16,36 +21,20 @@ public class Resolution implements Serializable {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
+    @OneToOne
+    @JoinColumn(name="user_name", referencedColumnName = "user_name")
+    private User user;
+
     @CreationTimestamp
     @Convert(converter = TimestampAttributeConverter.class)
-    private LocalDateTime resolutionDate;
+    @EqualsAndHashCode.Exclude
+    private LocalDateTime resolution_date;
 
     private String description;
 
+    /**
+     * The empty constructor.
+     */
     public Resolution() {}
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public LocalDateTime getResolutionDate() {
-        return resolutionDate;
-    }
-
-    public void setResolutionDate(LocalDateTime resolutionDate) {
-        this.resolutionDate = resolutionDate;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 
 }
