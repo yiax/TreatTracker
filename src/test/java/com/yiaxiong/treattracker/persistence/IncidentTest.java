@@ -110,8 +110,8 @@ public class IncidentTest {
      * Test get all users with last name exact.
      * @throws Exception the exception
      */
-   /* @Test
-    public void testGetAllUsersWithLastNameExact() throws Exception {
+    /*@Test
+   public void testGetAllUsersWithLastNameExact() throws Exception {
         incidents = dao.findByPropertyEqual("email", "jbate@treattracker.com");
         assertTrue(incidents.size() > 0);
         assertTrue(incidents.get(0).getDescription().equals("yummy treats soon"));

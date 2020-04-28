@@ -40,10 +40,10 @@ public class ResolutionTest {
     @Test
     public void testGetAllResolutions() throws Exception {
         assertTrue(resolutions.size() == 2);
-        assertTrue(resolutions.get(0).getUser().getUserName().equals("jbate"));
+        assertTrue(resolutions.get(0).getUser().getUser_name().equals("jbate"));
         assertTrue(resolutions.get(0).getDescription().equals("treats in break room"));
 
-        assertTrue(resolutions.get(1).getUser().getUserName().equals("aduggan"));
+        assertTrue(resolutions.get(1).getUser().getUser_name().equals("aduggan"));
         assertTrue(resolutions.get(1).getDescription().equals("donuts at my desk"));
 
         logger.debug("GetAllTestPass");

@@ -38,35 +38,35 @@ public class UserTest {
     @Test
     public void testGetAllUsers() throws Exception {
         assertTrue(users.size() == 6);
-        assertTrue(users.get(0).getFirstName().equals("Layla"));
-        assertTrue(users.get(0).getLastName().equals("Mcmanus"));
+        assertTrue(users.get(0).getFirst_name().equals("Layla"));
+        assertTrue(users.get(0).getLast_name().equals("Mcmanus"));
         assertTrue(users.get(0).getEmail().equals("lmcmanus@treattracker.com"));
-        assertTrue(users.get(0).getUserName().equals("lmcmanus"));
+        assertTrue(users.get(0).getUser_name().equals("lmcmanus"));
 
-        assertTrue(users.get(1).getFirstName().equals("Faye"));
-        assertTrue(users.get(1).getLastName().equals("Odling"));
+        assertTrue(users.get(1).getFirst_name().equals("Faye"));
+        assertTrue(users.get(1).getLast_name().equals("Odling"));
         assertTrue(users.get(1).getEmail().equals("folding@treattracker.com"));
-        assertTrue(users.get(1).getUserName().equals("fodling"));
+        assertTrue(users.get(1).getUser_name().equals("fodling"));
 
-        assertTrue(users.get(2).getFirstName().equals("Kerys"));
-        assertTrue(users.get(2).getLastName().equals("Yates"));
+        assertTrue(users.get(2).getFirst_name().equals("Kerys"));
+        assertTrue(users.get(2).getLast_name().equals("Yates"));
         assertTrue(users.get(2).getEmail().equals("kyates@treattracker.com"));
-        assertTrue(users.get(2).getUserName().equals("kyates"));
+        assertTrue(users.get(2).getUser_name().equals("kyates"));
 
-        assertTrue(users.get(3).getFirstName().equals("Jeanne"));
-        assertTrue(users.get(3).getLastName().equals("Bate"));
+        assertTrue(users.get(3).getFirst_name().equals("Jeanne"));
+        assertTrue(users.get(3).getLast_name().equals("Bate"));
         assertTrue(users.get(3).getEmail().equals("jbate@treattracker.com"));
-        assertTrue(users.get(3).getUserName().equals("jbate"));
+        assertTrue(users.get(3).getUser_name().equals("jbate"));
 
-        assertTrue(users.get(4).getFirstName().equals("Abid"));
-        assertTrue(users.get(4).getLastName().equals("Duggan"));
+        assertTrue(users.get(4).getFirst_name().equals("Abid"));
+        assertTrue(users.get(4).getLast_name().equals("Duggan"));
         assertTrue(users.get(4).getEmail().equals("aduggan@treattracker.com"));
-        assertTrue(users.get(4).getUserName().equals("aduggan"));
+        assertTrue(users.get(4).getUser_name().equals("aduggan"));
 
-        assertTrue(users.get(5).getFirstName().equals("Abraham"));
-        assertTrue(users.get(5).getLastName().equals("Warren"));
+        assertTrue(users.get(5).getFirst_name().equals("Abraham"));
+        assertTrue(users.get(5).getLast_name().equals("Warren"));
         assertTrue(users.get(5).getEmail().equals("awarren@treattracker.com"));
-        assertTrue(users.get(5).getUserName().equals("awarren"));
+        assertTrue(users.get(5).getUser_name().equals("awarren"));
 
         logger.debug("GetAllTestPass");
     }
@@ -136,6 +136,6 @@ public class UserTest {
     public void testGetAllUsersWithLastNameExact() throws Exception {
         users = dao.findByPropertyEqual("last_name", "Yates");
         assertTrue(users.size() > 0);
-        assertTrue(users.get(0).getFirstName().equals("Kerys"));
+        assertTrue(users.get(0).getFirst_name().equals("Kerys"));
     }
 }

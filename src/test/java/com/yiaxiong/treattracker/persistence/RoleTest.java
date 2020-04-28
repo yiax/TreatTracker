@@ -44,7 +44,7 @@ public class RoleTest {
         assertTrue(roles.size() > 0);
         assertTrue(roles.size() == 6);
         logger.info(roles.get(0).getRole());
-        assertTrue(roles.get(0).getUser().getUserName().equals("lmcmanus"));
+        assertTrue(roles.get(0).getUser().getUser_name().equals("lmcmanus"));
         assertTrue(roles.get(0).getRole().equals("basic"));
     }
 

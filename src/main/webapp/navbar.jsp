@@ -20,7 +20,9 @@
         </li>
     </ul>
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#loginModal" href="#">My Account</a></li>
+        <li class="nav-item"><a class="nav-link" href="user-home">Direct Link to Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="home.jsp">Form Auth Login</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#loginModal" href="home.jsp">Modal Login</a></li>
         <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#registerModal" href="#">Register</a></li>
     </ul>
 </nav>
@@ -29,7 +31,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content rounded-0">
             <div class="modal-header">
-                <h4 class="modal-title" id="myLoginModalLabel">My Account Login</h4>
+                <h4 class="modal-title" id="myLoginModalLabel">My Account</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">x</span>
                 </button>
@@ -59,7 +61,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content rounded-0">
             <div class="modal-header">
-                <h4 class="modal-title" id="myRegisterModalLabel">Register Information</h4>
+                <h4 class="modal-title" id="myRegisterModalLabel">Register</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">x</span>
                 </button>

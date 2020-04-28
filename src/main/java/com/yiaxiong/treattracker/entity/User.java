@@ -6,6 +6,7 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+import lombok.*;
 
 @Entity(name="User")
 @Table(name="user")
@@ -28,7 +29,7 @@ public class User implements Serializable{
     /**
      * Instantiate a new User; the empty constructor
      */
-    public User() {setIncidents();}
+    public User() {}
 
     /**
      * Instantiate a new User; the argument constructor
@@ -44,134 +45,74 @@ public class User implements Serializable{
         this.email = email;
         this.user_name = user_name;
         this.password = password;
-        setIncidents();
     }
 
-    /**
-     * Get id
-     * @return id
-     */
     public int getId() {
         return id;
     }
 
-    /**
-     * Get firstName
-     * @return firstName
-     */
-    public String getFirstName() {
-        return first_name;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    /**
-     * Set firstName
-     * @param first_name the first name
-     */
-    public void setFirstName(String first_name) {
-        this.first_name = first_name;
-    }
-
-    /**
-     * Get lastName
-     * @return lastName
-     */
-    public String getLastName() {
-        return last_name;
-    }
-
-    /**
-     * Set lastName
-     * @param last_name the last name
-     */
-    public void setLastName(String last_name) {
-        this.last_name = last_name;
-    }
-
-    /**
-     * Get email
-     * @return email
-     */
-    public String getEmail() {
-        return email;
-    }
-
-    /**
-     * Set email
-     * @param email the email
-     */
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    /**
-     * Get userName
-     * @return userName
-     */
-    public String getUserName() {
-        return user_name;
-    }
-
-    /**
-     * Set userName
-     * @param user_name the user name
-     */
-    public void setUserName(String user_name) {
-        this.user_name = user_name;
-    }
-
-    /**
-     * Get password
-     * @return password
-     */
-    public String getPassword() {
-        return password;
-    }
-
-    /**
-     * Set password
-     * @param password the password
-     */
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    /**
-     * Get incidents
-     * @return incidents
-     */
     public Set<Incident> getIncidents() {
         return incidents;
     }
 
-    /**
-     * Set incidents
-     */
-    private void setIncidents() {
-        //TODO
-        //retrieve incidents for a user in the db
-        //add each incident to the set
+    public void setIncidents(Set<Incident> incidents) {
+        this.incidents = incidents;
     }
 
-    /**
-     * Display the user in a String
-     * @return String
-     */
+    public String getFirst_name() {
+        return first_name;
+    }
+
+    public void setFirst_name(String first_name) {
+        this.first_name = first_name;
+    }
+
+    public String getLast_name() {
+        return last_name;
+    }
+
+    public void setLast_name(String last_name) {
+        this.last_name = last_name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getUser_name() {
+        return user_name;
+    }
+
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     @Override
     public String toString() {
         return "User{" +
-                "id='" + id + '\'' +
-                ", firstName='" + first_name + '\'' +
-                ", lastName='" + last_name + '\'' +
+                "first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
                 ", email='" + email + '\'' +
-                ", userName='" + user_name + '\'' +
+                ", user_name='" + user_name + '\'' +
                 '}';
     }
 
-    /**
-     * Check if two users are the same
-     * @param o the user object
-     * @return boolean
-     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -185,10 +126,6 @@ public class User implements Serializable{
                 Objects.equals(password, user.password);
     }
 
-    /**
-     * Override hashCode
-     * @return hash object
-     */
     @Override
     public int hashCode() {
         return Objects.hash(id, first_name, last_name, email, user_name, password);

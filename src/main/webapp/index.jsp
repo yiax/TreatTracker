@@ -6,13 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <jsp:include page="contentType.jsp" />
-<html>
+<html lang="en" class=""h-100>
 <jsp:include page="head.jsp" />
-<body>
+<body class="h-100">
 <div class="container">
     <jsp:include page="navbar.jsp" />
     <h1>Hello World!</h1>
-    <a href="user-home">User Home</a>
 </div>
 </body>
 </html>
