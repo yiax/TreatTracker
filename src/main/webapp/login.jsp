@@ -16,7 +16,7 @@
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col-10 col-md-8 col-lg-6">
                 <form action="j_security_check" method="post">
-                    <h1>Login Credential</h1>
+                    <h1>Login</h1>
                     <div class="form-group">
                         <label for="username">Username:</label>
                         <input type="text" class="form-control username" id="username" placeholder="Username..." name="j_username">
@@ -25,7 +25,7 @@
                         <label for="password">Password:</label>
                         <input type="password" class="form-control password" id="password" placeholder="Password..." name="j_password">
                     </div>
-                    <button type="submit">Login</button>
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div>

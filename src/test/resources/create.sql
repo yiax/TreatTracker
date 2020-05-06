@@ -37,23 +37,23 @@ create table role
 create table resolution
 (
     id              int auto_increment primary key,
-    user_name       varchar(20)                        not null,
-    resolution_date datetime default CURRENT_TIMESTAMP not null,
-    description     varchar(255)                       null,
-    constraint resolution_user_user_name_fk foreign key (user_name) references user (user_name) on update cascade on delete cascade
+    user_id         int          not null,
+    resolution_date datetime     not null,
+    description     varchar(255) not null,
+    constraint resolution_user_id_fk foreign key (user_id) references user (id) on update cascade on delete cascade
 );
 
 create table incident
 (
     id            int auto_increment primary key,
-    email         varchar(50)  not null,
+    user_id       int          not null,
     incident_date datetime     not null,
     description   varchar(255) not null,
-    resolution_id int          null,
-    constraint incident_resolution_id_uindex unique (resolution_id),
+    resolution_id int,
     constraint incident_resolution_id_fk foreign key (resolution_id) references resolution (id) on update cascade on delete cascade,
-    constraint incident_user_email_fk foreign key (email) references user (email) on update cascade on delete cascade
+    constraint incident_user_id_fk foreign key (user_id) references user (id) on update cascade on delete cascade
 );
+
 
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (1, 'Layla', 'Mcmanus', 'lmcmanus', 'lmcmanus@treattracker.com', 'password1');
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (2, 'Faye', 'Odling', 'fodling', 'folding@treattracker.com', 'password2');
@@ -69,13 +69,13 @@ INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (4, 'jbate', 'b
 INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (5, 'aduggan', 'admin');
 INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (6, 'awarren', 'basic');
 
-INSERT INTO treat_tracker_test.resolution (id, user_name, resolution_date, description) VALUES (1, 'jbate', '2019-11-15 12:50:56', 'treats in break room');
-INSERT INTO treat_tracker_test.resolution (id, user_name, resolution_date, description) VALUES (2, 'aduggan', '2020-01-11 12:51:13', 'donuts at my desk');
+INSERT INTO treat_tracker_test.resolution (id, user_id, resolution_date, description) VALUES (1, 4, '2019-11-15 12:50:56', 'treats in break room');
+INSERT INTO treat_tracker_test.resolution (id, user_id, resolution_date, description) VALUES (2, 5, '2020-01-11 12:51:13', 'donuts at my desk');
 
-INSERT INTO treat_tracker_test.incident (id, email, incident_date, description, resolution_id) VALUES (1, 'lmcmanus@treattracker.com', '2019-10-15 12:45:15', 'treats for all', null);
-INSERT INTO treat_tracker_test.incident (id, email, incident_date, description, resolution_id) VALUES (2, 'jbate@treattracker.com', '2019-10-19 12:47:18', 'yummy treats soon', 1);
-INSERT INTO treat_tracker_test.incident (id, email, incident_date, description, resolution_id) VALUES (3, 'aduggan@treattracker.com', '2019-12-27 12:47:32', 'appreciate you all...treats', 2);
-INSERT INTO treat_tracker_test.incident (id, email, incident_date, description, resolution_id) VALUES (4, 'jbate@treattracker.com', '2020-02-04 12:47:46', 'treats treats treats', null);
+INSERT INTO treat_tracker_test.incident (id, user_id, incident_date, description, resolution_id) VALUES (1, 1, '2019-10-15 12:45:15', 'treats for all', null);
+INSERT INTO treat_tracker_test.incident (id, user_id, incident_date, description, resolution_id) VALUES (2, 4, '2019-10-19 12:47:18', 'yummy treats soon', 1);
+INSERT INTO treat_tracker_test.incident (id, user_id, incident_date, description, resolution_id) VALUES (3, 5, '2019-12-27 12:47:32', 'appreciate you all...treats', 2);
+INSERT INTO treat_tracker_test.incident (id, user_id, incident_date, description, resolution_id) VALUES (4, 4, '2020-02-04 12:47:46', 'treats treats treats', null);
 
 
 

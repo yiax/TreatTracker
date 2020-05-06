@@ -1,5 +1,6 @@
 package com.yiaxiong.treattracker.entity;
 
+import com.sun.istack.Nullable;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
@@ -19,6 +20,9 @@ public class User implements Serializable{
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Incident> incidents = new HashSet<>();
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Resolution> resolutions = new HashSet<>();
 
     private String first_name;
     private String last_name;
@@ -59,8 +63,14 @@ public class User implements Serializable{
         return incidents;
     }
 
-    public void setIncidents(Set<Incident> incidents) {
-        this.incidents = incidents;
+    public void setIncidents(Set<Incident> incidents) { this.incidents = incidents; }
+
+    public Set<Resolution> getResolutions() {
+        return resolutions;
+    }
+
+    public void setResolutions(Set<Resolution> resolutions) {
+        this.resolutions = resolutions;
     }
 
     public String getFirst_name() {

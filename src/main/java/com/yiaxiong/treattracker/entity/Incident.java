@@ -32,7 +32,7 @@ public class Incident implements Serializable {
     private Resolution resolution;
 
     @ManyToOne
-    @JoinColumn(name="email", referencedColumnName = "email")
+    @JoinColumn(name="user_id")
     private User user;
 
     private String description;

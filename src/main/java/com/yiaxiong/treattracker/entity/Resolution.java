@@ -1,5 +1,6 @@
 package com.yiaxiong.treattracker.entity;
 
+import com.sun.istack.Nullable;
 import com.yiaxiong.treattracker.util.TimestampAttributeConverter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
@@ -21,8 +22,7 @@ public class Resolution implements Serializable {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @OneToOne
-    @JoinColumn(name="user_name", referencedColumnName = "user_name")
+    @ManyToOne
     private User user;
 
     @CreationTimestamp

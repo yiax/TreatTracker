@@ -40,7 +40,7 @@ public class ResolutionTest {
     @Test
     public void testGetAllResolutions() throws Exception {
         assertTrue(resolutions.size() == 2);
-        assertTrue(resolutions.get(0).getUser().getUser_name().equals("jbate"));
+        assertEquals(4, resolutions.get(0).getUser().getId());
         assertTrue(resolutions.get(0).getDescription().equals("treats in break room"));
 
         assertTrue(resolutions.get(1).getUser().getUser_name().equals("aduggan"));
@@ -114,11 +114,10 @@ public class ResolutionTest {
      * Test get all resolution with exact user name.
      * @throws Exception the exception
      */
-   /* @Test
+    @Test
     public void testGetAllResolutionsWithUserNameExact() throws Exception {
-
-        resolutions = dao.findByPropertyEqual("user", "jbate");
+        resolutions = dao.findByPropertyEqual("user", 4);
         assertTrue(resolutions.size() > 0);
-        assertTrue(resolutions.get(0).getUser().getUserName().equals("treats in break room"));
-    }*/
+        assertEquals("treats in break room", resolutions.get(0).getDescription());
+    }
 }

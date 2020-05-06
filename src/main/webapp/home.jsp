@@ -58,11 +58,15 @@
                     <h2>Recent Activities</h2>
                     <p><b>TO DO:</b> Display recent incidents and resolve record by order by date.
                     Show date of incident/resolve, user's first name, last name, and the message sent</p>
+                    <table>
                     <c:forEach var="incident" items="${incidents}">
                         <tr>
+                            <td>${incident.incident_date}</td>
+                            <td>${indicent.user}</td>
                             <td>${incident.description}</td>
                         </tr>
                     </c:forEach>
+                    </table>
                 </div>
             </div>
         </div>

@@ -20,78 +20,10 @@
         </li>
     </ul>
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="user-home">Direct Link to Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="home.jsp">Form Auth Login</a></li>
-        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#loginModal" href="home.jsp">Modal Login</a></li>
-        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#registerModal" href="#">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="user-home">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.jsp">Register</a></li>
     </ul>
 </nav>
-
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content rounded-0">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myLoginModalLabel">My Account</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">x</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form action="j_security_check" method="post" class="needs-validation" novalidate>
-                    <div class="form-group">
-                        <label for="user_name">User Name:</label>
-                        <input type="text" class="form-control" id="user_name" placeholder="Enter User Name" name="j_username" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please enter your email.</div>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password:</label>
-                        <input type="password" class="form-control" id="password" placeholder="Enter password" name="j_password" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please enter your password.</div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enter</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content rounded-0">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myRegisterModalLabel">Register</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">x</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form action="#" class="needs-validation" novalidate>
-                    <div class="form-group">
-                        <label for="registerEmail">Email:</label>
-                        <input type="text" class="form-control" id="registerEmail" placeholder="Enter email" name="registerEmail" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please enter your email.</div>
-                    </div>
-                    <div class="form-group">
-                        <label for="registerPassword">Password:</label>
-                        <input type="password" class="form-control" id="registerPassword" placeholder="Enter password" name="registerPassword" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please enter your password.</div>
-                    </div>
-                    <div class="form-group">
-                        <label for="confirmPassword">Confirm Password:</label>
-                        <input type="password" class="form-control" id="confirmPassword" placeholder="Re-enter password" name="confirmPassword" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please re-enter your password.</div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 
 <script>validateForm()</script>
 
