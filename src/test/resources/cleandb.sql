@@ -1,1 +1,0 @@
-DROP DATABASE treat_tracker_test;
