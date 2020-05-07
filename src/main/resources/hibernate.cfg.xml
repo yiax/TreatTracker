@@ -10,7 +10,7 @@
         <property name="connection.username">tomee</property>
         <property name="connection.password">aTp@55s</property>
         -->
-        <property name="connection.url">jdbc:mysql://localhost:3306/treat_tracker</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/treat_tracker_test</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.username">root</property>
         <property name="connection.password">riC3f33D</property>

@@ -44,7 +44,4 @@
   <security-role>
     <role-name>basic</role-name>
   </security-role>
-
-
-
 </web-app>

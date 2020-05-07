@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/treatTracker.css">
 
     <!-- google font -->
-    <link href='https://fonts.googleapis.com/css?family=Darker Grotesque' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nanum Myeongjo' rel='stylesheet'>
 
     <!-- include js -->
     <script src="js/functions.js"></script>
