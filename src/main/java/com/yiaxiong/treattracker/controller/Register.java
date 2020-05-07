@@ -1,5 +1,6 @@
 package com.yiaxiong.treattracker.controller;
 
+import com.yiaxiong.treattracker.entity.Role;
 import com.yiaxiong.treattracker.entity.User;
 import com.yiaxiong.treattracker.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
@@ -11,7 +12,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.List;
 
 
 /**
@@ -26,11 +29,9 @@ import java.io.IOException;
 public class Register extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
- //   private String firstName = "";
-  //  private String lastName = "";
-  //  private String username = "";
-  //  private String email = "";
-  //  private String password = "";
+    private GenericDao<User> userDAO = new GenericDao<>(User.class);
+    private GenericDao<Role> roleDAO = new GenericDao<>(Role.class);
+    HttpSession session;
 
     /**
      *
@@ -43,60 +44,77 @@ public class Register extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-     //   firstName = request.getParameter("firstName");
-     //   lastName = request.getParameter("lastName");
-     //   username = request.getParameter("username");
-     //   email = request.getParameter("email");
-     //   password = request.getParameter("password");
+        session = request.getSession();
 
-        //TODO - validate that email does not already exist. If email already exist, display error message
-        GenericDao userDAO = new GenericDao(User.class);
-        logger.info(request.getParameter("firstName"));
-        logger.info(request.getParameter("lastName"));
-        logger.info(request.getParameter("email"));
-        logger.info(request.getParameter("username"));
-        logger.info(request.getParameter("password"));
-        System.out.println(request.getParameter("firstName"));
-        System.out.println(request.getParameter("lastName"));
-        System.out.println(request.getParameter("email"));
-        System.out.println(request.getParameter("username"));
-        System.out.println(request.getParameter("password"));
-        User newUser = new User(request.getParameter("firstName"), request.getParameter("lastName"), request.getParameter("email"), request.getParameter("userName"), request.getParameter("password"));
-        userDAO.insert(newUser);
-/*
-        while (loop) {
-            if (duplicateEmail || duplicateUsername || passwordMismatch) {
+        request.setAttribute("duplicateEmail", "false");
+        request.setAttribute("duplicateUsername", "false");
 
-            } else {
-                for (User user: users) {
-                    if (user.getEmail().equals(request.getParameter("email"))) {
-                        duplicateEmail = true;
-                    }
+        ValidateDuplicateUsernameAndEmail(request);
+        CheckPasswordMismatch(request);
 
-                    if (user.getUser_name().equals(request.getParameter("username"))) {
-                        duplicateUsername = true;
-                    }
-                }
+        if (request.getAttribute("duplicateEmail").equals("false") &&
+                request.getAttribute("duplicateUsername").equals("false") &&
+                request.getAttribute("passwordMismatch").equals("false")) {
 
-                if (!request.getParameter("password").equals(request.getParameter("confirmPassword"))) {
-                    passwordMismatch = true;
-                }
-            }
+            CreateUserAndRoles(request);
+            request.setAttribute("success", "true");
         }
-      */
-
-
-
-        //TODO - validate that username does not already exist. If username already exist, display error message
-        //TODO - validate that password and confirmPassword match. If password and confirmPassword does not match, display error message
-        //TODO - if all validations checks, add user to DB and forward to login
 
         // Forward to the HTTP Request and Response to JSP
-        String url = "/index.jsp";
-
+        String url = "/register.jsp";
         RequestDispatcher dispatcher = request.getRequestDispatcher(url);
         dispatcher.forward(request, response);
     }
 
+    /**
+     * This method checks to see if the username and email entered by the registrant are
+     * already in use.
+     *
+     * @param request the HttpServletRequest object
+     */
+    private void ValidateDuplicateUsernameAndEmail(HttpServletRequest request) {
+        List<User> users = userDAO.getAll();
+        for (User user : users) {
+            // check for duplicate email
+            if (request.getParameter("email").equals(user.getEmail())) {
+                request.setAttribute("duplicateEmail", "true");
+            }
+            // check for duplicate username
+            if (request.getParameter("username").equals(user.getUser_name())) {
+                request.setAttribute("duplicateUsername", "true");
+            }
+        }
+    }
 
+    /**
+     * This method checks if the passwords entered by the registrant is a match or mismatch.
+     *
+     * @param request the HttpServletRequest object
+     */
+    private void CheckPasswordMismatch(HttpServletRequest request) {
+        if (!request.getParameter("password").equals(request.getParameter("confirmPassword"))) {
+            request.setAttribute("passwordMismatch", "true");
+        } else {
+            request.setAttribute("passwordMismatch", "false");
+        }
+    }
+
+    /**
+     * This method creates a User and a User Role and store into the databases.
+     *
+     * @param request the HttpServletRequest object
+     */
+    private void CreateUserAndRoles(HttpServletRequest request) {
+        String defaultRole = "basic";
+        User newUser = new User(request.getParameter("firstName").trim(),
+                request.getParameter("lastName").trim(),
+                request.getParameter("email").trim(),
+                request.getParameter("username").trim(),
+                request.getParameter("password").trim());
+
+        userDAO.insert(newUser);
+
+        Role newRole = new Role(newUser, defaultRole);
+        roleDAO.insert(newRole);
+    }
 }
