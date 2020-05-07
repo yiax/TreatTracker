@@ -21,7 +21,7 @@
     </ul>
     <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="user-home">Login</a></li>
-        <li class="nav-item"><a class="nav-link" href="register.jsp">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.jsp">Sign Up</a></li>
     </ul>
 </nav>
 
