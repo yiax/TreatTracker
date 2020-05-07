@@ -114,9 +114,6 @@ public class IncidentTest {
    public void testGetAllIncidentsFromAUser() throws Exception {
         incidents = dao.findByPropertyEqual("user", 4);
         assertTrue(incidents.size() > 0);
-        logger.info(incidents.size());
-        logger.info(incidents.get(0).getDescription());
-        logger.info(incidents.get(1).getDescription());
         assertTrue(incidents.get(0).getDescription().equals("yummy treats soon"));
         assertTrue(incidents.get(1).getDescription().equals("treats treats treats"));
     }
