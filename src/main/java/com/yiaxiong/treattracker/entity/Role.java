@@ -28,4 +28,9 @@ public class Role implements Serializable {
      * The empty constructor
      */
     public Role(){}
+
+    /**
+     * The argument constructor
+     */
+    public Role(User user, String role){this.user = user; this.role = role;}
 }
