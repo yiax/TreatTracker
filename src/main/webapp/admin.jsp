@@ -8,9 +8,14 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var = "title" scope = "session" value = "Admin"/>
 <jsp:include page="contentType.jsp" />
-<html>
+<html lang="en" class=""h-100>
 <jsp:include page="head.jsp" />
-<body>
-<h1>ADMIN</h1>
+<body class=""h-100>
+<div class="container">
+    <jsp:include page="userNavbar.jsp" />
+    <div class="container-fluid">
+        <h1>Treat Tracker Admin</h1>
+        <jsp:include page="adminMenu.jsp" />
+    </div>
 </body>
 </html>
