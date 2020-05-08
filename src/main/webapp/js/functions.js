@@ -16,3 +16,7 @@ function validateForm() {
         });
     }, false);
 }
+
+function getUser() {
+    document.getElementById("userInfo").innerHTML = "Hello World";
+}
