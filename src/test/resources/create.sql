@@ -26,7 +26,7 @@ create table role
     id        int auto_increment
         primary key,
     user_name varchar(20) not null,
-    role      varchar(20) default 'basic',
+    role      varchar(20) not null,
     constraint role_user_name_uindex
         unique (user_name),
     constraint role_user_user_name_fk
