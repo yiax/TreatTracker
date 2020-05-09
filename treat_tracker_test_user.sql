@@ -1,0 +1,6 @@
+INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (1, 'Layla', 'Mcmanus', 'lmcmanus', 'lmcmanus@treattracker.com', 'password1');
+INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (2, 'Faye', 'Odling', 'fodling', 'folding@treattracker.com', 'password2');
+INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (3, 'Kerys', 'Yates', 'kyates', 'kyates@treattracker.com', 'password3');
+INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (4, 'Jeanne', 'Bate', 'jbate', 'jbate@treattracker.com', 'password4');
+INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (5, 'Abid', 'Duggan', 'aduggan', 'aduggan@treattracker.com', 'password5');
+INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (6, 'Abraham', 'Warren', 'awarren', 'awarren@treattracker.com', 'password6');

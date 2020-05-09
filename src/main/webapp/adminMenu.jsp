@@ -12,7 +12,7 @@
             <a class="nav-link" href="all-users">Edit Users</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Edit Incidents</a>
+            <a class="nav-link" href="all-incidents">Edit Incidents</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Edit Resolutions</a>

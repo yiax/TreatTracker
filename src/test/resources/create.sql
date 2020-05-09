@@ -59,7 +59,7 @@ INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (2, 'Faye', 'Odling', 'fodling', 'folding@treattracker.com', 'password2');
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (3, 'Kerys', 'Yates', 'kyates', 'kyates@treattracker.com', 'password3');
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (4, 'Jeanne', 'Bate', 'jbate', 'jbate@treattracker.com', 'password4');
-INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (5, 'Abid', 'Duggan', 'aduggan', 'aduggan@treattracker.com', 'password5');
+INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (5, 'Abid', 'Duggan', 'aduggan', 'aduggan@treattracker.com', 'a');
 INSERT INTO treat_tracker_test.user (id, first_name, last_name, user_name, email, password) VALUES (6, 'Abraham', 'Warren', 'awarren', 'awarren@treattracker.com', 'password6');
 
 INSERT INTO treat_tracker_test.role (id, user_name, role) VALUES (1, 'lmcmanus', 'basic');
