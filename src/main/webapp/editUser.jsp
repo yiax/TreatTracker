@@ -14,7 +14,7 @@
 <div class="container">
     <jsp:include page="userNavbar.jsp" />
     <div class="container-fluid">
-        <h1>Treat Tracker Admin</h1>
+        <h1 class="text-center m-3 p-3">Treat Tracker Admin</h1>
         <jsp:include page="adminMenu.jsp" />
         <div class="m-2">
         <c:choose>

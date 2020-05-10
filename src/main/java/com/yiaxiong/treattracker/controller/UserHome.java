@@ -42,37 +42,35 @@ public class UserHome extends HttpServlet {
         //Get the user info
         //String username = request.getParameter("username");
 
+        HttpSession session = request.getSession();
+
         //Get all users
         GenericDao userDAO = new GenericDao(User.class);
         List<User> users = userDAO.getAll();
         request.setAttribute("users", users);
         logger.debug("Sending back the user/s..." + users);
 
+        //Get login user
+        List<User> loginUsers = userDAO.findByPropertyEqual("user_name", request.getRemoteUser());
+        User loginUser = new User();
+        loginUser = loginUsers.get(0);
+        session.setAttribute("loginUser", loginUser);
+
         //Get all incidents
         GenericDao incidentDao = new GenericDao(Incident.class);
         List<Incident> incidents = incidentDao.getAll();
-        request.setAttribute("incidents", incidents);
-
-        //Get all resolution
-      /*  GenericDao resolutionDao = new GenericDao(Resource.class);
-        List<Resolution> resolutions= resolutionDao.getAll();
-
-        List<Object> recentActivities = new ArrayList<>();
-        int counter = 0;
-        while (incidents.get(counter) != null && resolutions.get(counter) != null) {
-            try {
-                recentActivities.add(incidents.get(counter));
-            } catch (ArrayIndexOutOfBoundsException outOfBound){
-                // do nothing
-            }
-
-            try {
-                recentActivities.add(resolutions.get(counter));
-            } catch (ArrayIndexOutOfBoundsException outOfBound){
-                // do nothing
+        List<Incident> unresolvedIncidents = new ArrayList<>();
+        List<Incident> resolvedIncidents = new ArrayList<>();
+        for (Incident incident : incidents) {
+            if (incident.getResolution() != null) {
+                resolvedIncidents.add(incident);
+            } else {
+                unresolvedIncidents.add(incident);
             }
         }
-        request.setAttribute("recentActivities", recentActivities);*/
+        request.setAttribute("incidents", unresolvedIncidents);
+        request.setAttribute("resolutions", resolvedIncidents);
+
 
         // Forward to the HTTP Request and Response to JSP
         String url = "/home.jsp";

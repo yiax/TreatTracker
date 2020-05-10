@@ -2,6 +2,10 @@ body {
     font-family: 'Nanum Myeongjo';
 }
 
+nav {
+    font-size: larger;
+}
+
 .nav-item {
     color: #272443;
 }

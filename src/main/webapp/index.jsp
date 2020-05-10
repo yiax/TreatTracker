@@ -13,7 +13,7 @@
 <body class="h-100">
 <div class="container">
     <jsp:include page="navbar.jsp" />
-    <h1>Hello World!</h1>
+
 </div>
 </body>
 </html>
