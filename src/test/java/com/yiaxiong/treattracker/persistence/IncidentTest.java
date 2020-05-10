@@ -1,6 +1,7 @@
 package com.yiaxiong.treattracker.persistence;
 
 import com.yiaxiong.treattracker.entity.Incident;
+import com.yiaxiong.treattracker.entity.Resolution;
 import com.yiaxiong.treattracker.entity.User;
 import com.yiaxiong.treattracker.util.Database;
 import org.apache.logging.log4j.LogManager;
@@ -9,7 +10,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -124,4 +128,35 @@ public class IncidentTest {
         assertTrue(incidents.get(0).getDescription().equals("yummy treats soon"));
         assertTrue(incidents.get(1).getDescription().equals("treats treats treats"));
     }
+
+    /**
+     * Test get all incidents that belong to a particular user.
+     * @throws Exception the exception
+     */
+   /* @Test
+    public void testGetAllUnresolvedIncidents() throws Exception {
+        incidents = dao.findByPropertyEqual("resolution", null);
+        System.out.println(incidents.size());
+        assertTrue(incidents.size() == 2);
+       // assertTrue(incidents.get(0).getDescription().equals("yummy treats soon"));
+       // assertTrue(incidents.get(1).getDescription().equals("treats treats treats"));
+    }*/
+
+    /**
+     * Test get all incidents that belong to a particular user.
+     * @throws Exception the exception
+     */
+  /*  @Test
+    public void testGetAllUnresolvedIncidentsFromAUser() throws Exception {
+        GenericDao userDao = new GenericDao(User.class);
+        User user = (User) userDao.getById(4);
+        Resolution resolution = new Resolution();
+        Map<String, Object> unresolvedIncidents = new HashMap<>();
+        unresolvedIncidents.put("user", user);
+        unresolvedIncidents.put("resolution", resolution);
+        incidents = dao.findByPropertyEqual(unresolvedIncidents);
+        System.out.println("incidents size: " + incidents.size());
+        assertTrue(incidents.size() == 1);
+        assertTrue(incidents.get(0).getDescription().equals("treats treats treats"));
+    }*/
 }
