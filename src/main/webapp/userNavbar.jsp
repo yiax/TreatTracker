@@ -13,7 +13,7 @@
             <a class="nav-link text-dark" href="user-home">My Dashboard</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" href="resolve-incident">Resolve an Incident</a>
+            <a class="nav-link text-dark" href="all-users?function=resolve">Resolve an Incident</a>
         </li>
     </ul>
     <ul class="navbar-nav ml-auto">
