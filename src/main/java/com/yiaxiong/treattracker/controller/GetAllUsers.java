@@ -40,7 +40,8 @@ public class GetAllUsers extends HttpServlet {
      */
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        List<String> user_role = new ArrayList<>();
+        HttpSession session = request.getSession();
+        String url = "";
 
         //Get all users
         GenericDao userDAO = new GenericDao(User.class);
@@ -52,7 +53,19 @@ public class GetAllUsers extends HttpServlet {
         request.setAttribute("roles", roles);
 
         // Forward to the HTTP Request and Response to JSP
-        String url = "/editUser.jsp";
+        if (request.getParameter("function").equals("edit")) {
+            url = "/editUser.jsp";
+        }
+
+        if (request.getParameter(("function")).equals("resolve")) {
+
+            if (session.getAttribute("message") != null) {
+                request.setAttribute("message", session.getAttribute("message"));
+                session.removeAttribute("message");
+            }
+
+            url = "/resolveIncident.jsp";
+        }
 
         RequestDispatcher dispatcher = request.getRequestDispatcher(url);
         dispatcher.forward(request, response);

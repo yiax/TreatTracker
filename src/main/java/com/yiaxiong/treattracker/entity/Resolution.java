@@ -7,6 +7,9 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.HashSet;
+import java.util.Set;
+
 import lombok.*;
 
 @Entity(name="Resolution")
@@ -24,6 +27,11 @@ public class Resolution implements Serializable {
 
     @ManyToOne
     private User user;
+
+    /*
+    @OneToOne(mappedBy = "resolution", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Incident incidents;
+    */
 
     @CreationTimestamp
     @Convert(converter = TimestampAttributeConverter.class)

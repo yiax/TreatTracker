@@ -8,6 +8,8 @@ import javax.persistence.*;
 import lombok.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity(name="Incident")
 @Table(name="incident")
@@ -28,7 +30,7 @@ public class Incident implements Serializable {
     private LocalDateTime incident_date;
 
     @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="id")
+    @JoinColumn(name="resolution_id")
     private Resolution resolution;
 
     @ManyToOne

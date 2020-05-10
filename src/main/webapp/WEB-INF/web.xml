@@ -27,11 +27,15 @@
     </auth-constraint>
   </security-constraint>
 
-  <!-- Protect the admin page. -->
+  <!-- Protect the admin page and functions. -->
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>Admin</web-resource-name>
       <url-pattern>/admin.jsp</url-pattern>
+      <url-pattern>/all-incidents</url-pattern>
+      <url-pattern>/edit-incident</url-pattern>
+      <url-pattern>/update-user</url-pattern>
+      <url-pattern>/user-info</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>

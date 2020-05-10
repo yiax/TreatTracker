@@ -9,7 +9,7 @@
 <nav class="navbar navbar-expand-sm bg-light">
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="all-users">Edit Users</a>
+            <a class="nav-link" href="all-users?function=edit">Edit Users</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="all-incidents">Edit Incidents</a>

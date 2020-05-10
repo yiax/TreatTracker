@@ -87,7 +87,7 @@
 
                         <button type="submit" class="btn btn-light">Submit</button>
                         <button type="reset" class="btn btn-light">Reset</button>
-                        <a href="all-users" class="btn btn-light">Cancel</a>
+                        <a href="all-users?function=edit" class="btn btn-light">Cancel</a>
                     </form>
                     <script>
                         validateForm()

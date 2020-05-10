@@ -42,7 +42,7 @@ public class UpdateUser extends HttpServlet {
             throws ServletException, IOException {
 
         boolean updated = false;
-        String url = "";
+        String url = "/TreatTracker/all-users?function=edit";
         HttpSession session = request.getSession();
         int userID = Integer.parseInt(request.getParameter("id")) -1;
         String firstName = request.getParameter("firstName").trim();
@@ -63,7 +63,7 @@ public class UpdateUser extends HttpServlet {
             for (Role role:roles) {
                 if (role.getUser().equals(user)) {
                     if (delete.equals("delete")) {
-                        url = "/TreatTracker/all-users?delete=y&first=" + user.getFirst_name() + "&last=" + user.getLast_name() ;
+                        url += "&delete=y&first=" + user.getFirst_name() + "&last=" + user.getLast_name() ;
                         roleDAO.delete(role);
                         userDAO.delete(user);
                         break;
@@ -103,9 +103,7 @@ public class UpdateUser extends HttpServlet {
 
             if (updated) {
                 userDAO.saveOrUpdate(user);
-                url = "/TreatTracker/all-users?first=" + user.getFirst_name() + "&last=" + user.getLast_name();
-            } else {
-                url = "/TreatTracker/all-users";
+                url += "&first=" + user.getFirst_name() + "&last=" + user.getLast_name();
             }
         }
 
