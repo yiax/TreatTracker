@@ -1,6 +1,5 @@
 package com.yiaxiong.treattracker.entity;
 
-import com.sun.istack.Nullable;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
