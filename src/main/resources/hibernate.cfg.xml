@@ -4,12 +4,12 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <!--
+<!--
         <property name="connection.url">jdbc:mysql://localhost:3306/treattracker</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.username">tomee</property>
         <property name="connection.password">aTp@55s</property>
-        -->
+-->
 
         <property name="connection.url">jdbc:mysql://localhost:3306/treat_tracker_test</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>

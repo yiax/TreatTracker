@@ -1,4 +1,0 @@
-INSERT INTO treat_tracker_test.incident (id, user_id, incident_date, description, resolution_id) VALUES (1, 1, '2019-10-15 12:45:15', 'treats for all', null);
-INSERT INTO treat_tracker_test.incident (id, user_id, incident_date, description, resolution_id) VALUES (2, 4, '2019-10-19 12:47:18', 'yummy treats soon', 1);
-INSERT INTO treat_tracker_test.incident (id, user_id, incident_date, description, resolution_id) VALUES (3, 5, '2019-12-27 12:47:32', 'appreciate you all...treats', 2);
-INSERT INTO treat_tracker_test.incident (id, user_id, incident_date, description, resolution_id) VALUES (4, 4, '2020-02-04 12:47:46', 'treats treats treats', null);
