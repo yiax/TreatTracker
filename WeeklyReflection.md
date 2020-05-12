@@ -161,3 +161,106 @@ Task Completed
 
 There's some additional work to do. I'm still trying to update my database to show a one to many relationship between
 the user and incident tables.
+
+### Week 7 & 8
+
+Read a little into Gmail API but did not accomplished much these too weeks.
+
+### Week 9
+
+##### 03/30/2020 - 3 hours
+
+Task Completed
+* Restructured database
+* Update Hibernate annotation in entities
+
+I was having a lot of trouble with some of my test failing. I had to re-build my database and try to learn how hibernate works
+so I can apply the correct relationship. I was unable to get some of the test to pass and was pretty frustrated with 
+hibernate.
+
+### Week 10 & 11
+
+These weeks were dedicated for the team project. 
+
+### Week 12
+
+##### 04/15/2020 - 4 hours
+
+Continue my database issued. I got a little closer with most of my test passing. however, there were issue with my
+incident test since it holds two reference key to other tables. I cannot figure out the hibernate relationship.
+
+### Week 13
+
+##### 04/21/2020 - 5 hours
+
+Task Completed
+* Complete database restructure
+* Complete dao test
+* Implement Lombok to most of my entities
+* Started working on Gmail API call
+
+It was pretty frustrated with Hibernate but I think I finally figure it out to make most of my test pass. I was able to 
+implement lombok with other entities. I also started trying to implement an gmail API and was having a lot of trouble. 
+I was unable to authenticate my call to Google using localhost.
+
+### Week 14
+
+##### 04/28/2020 - 3 hours
+
+Task Completed
+* Implemented login servlet
+* Started working on Gmail API
+
+Logging in was frustrating too. I initially created a modal for logging in. I was unable to implement form base auth with 
+the modal. I eventually scrap the modal and just implement the login using a jsp. This worked better and I was able to login.
+
+
+### Week 15
+
+##### 05/06/2020 - 30 hours
+
+Task Completed
+* Implemented a register form and a servlet
+* User allowed to be added to DB from login
+
+##### 05/07/2020 - 4 hours
+
+Task Completed
+* Added styling to web page
+* Add form validation to login and register pages
+* Update test for incident to test for searching for a user by the user id
+* Add failed login page
+* Create navigation menu
+
+For the most part, today was a must stress free in terms of making progress. The last few time I've worked on the project
+I find myself stuck and unable to make progress. Today was as success.
+
+##### 05/08/2020 - 6 hours
+
+Task Completed
+* Add admin features such as getting/editing users
+* Add additional style to user home page
+* Add admin menu
+
+##### 05/09/2020 - 6 hours
+
+Task Completed
+* Allow user to add a resolution
+* Allow user to retrieve a list of incidents to be resolved
+* Add controllers and JSP
+* Able to implement a web service call to Gmail
+
+##### 05/10/2020 - 8 hours
+
+Task Completed
+* Add sending an email feature when resolving incident
+
+##### 05/10/2020 - 6 hours
+
+Task Completed
+* Add ability to retrieve email to be added by user
+* Deploy to AWS
+
+Overall, this week has been a lot of work. I don't feel that I've met all the requirement for the project, however, I
+accomplished a lot in terms of having a usable project. I'll continue working and enhancing the project after the semester.
+
