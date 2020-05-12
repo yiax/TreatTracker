@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * This servlet get all incidents from the database
  *
  * @author Yia Xiong
  */
@@ -32,7 +32,7 @@ public class GetAllIncidents extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     *
+     * Get the incidents form the database and sends it to the jsp for display
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object
@@ -41,8 +41,6 @@ public class GetAllIncidents extends HttpServlet {
      */
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
-        HttpSession session = request.getSession();
 
         //Get all incidents
         GenericDao incidentDAO = new GenericDao(Incident.class);

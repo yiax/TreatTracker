@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- *
+ * This servlet sends the user to the login
  *
  * @author Yia Xiong
  */
@@ -28,7 +28,7 @@ public class Login extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     *
+     * Forward the user's requst to the login.jsp
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object

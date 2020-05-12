@@ -18,7 +18,7 @@ import java.util.List;
 
 
 /**
- *
+ * This servlet get the information from the jsp and register the user in the DB
  *
  * @author Yia Xiong
  */
@@ -34,7 +34,7 @@ public class Register extends HttpServlet {
     HttpSession session;
 
     /**
-     *
+     * Get the new user information, check for validation, and store into DB.
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object

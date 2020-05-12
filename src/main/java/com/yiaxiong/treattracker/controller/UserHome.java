@@ -16,7 +16,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- *
+ * This servlet generate the user's home page
  *
  * @author Yia Xiong
  */
@@ -29,7 +29,8 @@ public class UserHome extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     *
+     * This method get all the login user's information, all the users, all the incidents, and all the resolution
+     * and send it to the jsp for display.
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object
@@ -38,9 +39,6 @@ public class UserHome extends HttpServlet {
      */
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
-        //Get the user info
-        //String username = request.getParameter("username");
 
         HttpSession session = request.getSession();
 

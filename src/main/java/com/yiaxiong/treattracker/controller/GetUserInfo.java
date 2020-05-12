@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- *
+ * This servlet get the user's information
  *
  * @author Yia Xiong
  */
@@ -29,7 +29,7 @@ public class GetUserInfo extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     *
+     * Get the user's information and send to jsp for display
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object
@@ -39,12 +39,12 @@ public class GetUserInfo extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         HttpSession session = request.getSession();
-        int userID = Integer.parseInt(request.getParameter("id")) - 1;
+        int userID = Integer.parseInt(request.getParameter("id"));
 
         //Get all users
         GenericDao userDAO = new GenericDao(User.class);
-        List<User> users = userDAO.getAll();
-        User user = users.get(userID);
+
+        User user = (User) userDAO.getById(userID);
 
         request.setAttribute("firstName", user.getFirst_name());
         request.setAttribute("lastName", user.getLast_name());

@@ -1,17 +1,18 @@
 package com.yiaxiong.treattracker.entity;
 
-import com.sun.istack.Nullable;
+
 import com.yiaxiong.treattracker.util.TimestampAttributeConverter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.HashSet;
-import java.util.Set;
-
 import lombok.*;
 
+/**
+ * Create an instance of a Resolution
+ * @author Yia Xiong
+ */
 @Entity(name="Resolution")
 @Table(name="resolution")
 @Getter

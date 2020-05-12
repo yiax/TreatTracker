@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * This method resolve an incident.
  *
  * @author Yia Xiong
  */
@@ -34,7 +34,8 @@ public class ResolveIncident extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     *
+     * This method resolve an incident by creating an Resolution, assigning it to the incident, and storing into the
+     * DB. An email is also generated and sent to the group.
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object

@@ -14,6 +14,7 @@
 <div class="container">
     <jsp:include page="navbar.jsp" />
     <h1>Contact</h1>
+    <h2>Under Construction</h2>
 </div>
 </body>
 </html>

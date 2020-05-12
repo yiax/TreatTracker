@@ -1,6 +1,7 @@
 package com.yiaxiong.treattracker.controller;
 
 import com.yiaxiong.treattracker.entity.Incident;
+import com.yiaxiong.treattracker.entity.Resolution;
 import com.yiaxiong.treattracker.entity.Role;
 import com.yiaxiong.treattracker.entity.User;
 import com.yiaxiong.treattracker.persistence.GenericDao;
@@ -42,19 +43,21 @@ public class EditIncident extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+        HttpSession session = request.getSession();
+
         GenericDao incidentDao = new GenericDao(Incident.class);
         List<Incident> incidents = incidentDao.getAll();
-        HttpSession session = request.getSession();
+
+        GenericDao userDao = new GenericDao(User.class);
+        List<User> users = userDao.getAll();
+
+        GenericDao resolutionDAO = new GenericDao(Resolution.class);
+        List<Resolution> resolutions = userDao.getAll();
+
         int idToEdit = Integer.parseInt(request.getParameter("id").trim()) ;
-        Incident incidentToEdit = new Incident();
+        Incident incidentToEdit = incidents.get(idToEdit);
         String url = "";
         String message = "";
-
-        for (Incident incident : incidents) {
-            if (incident.getId() == idToEdit) {
-                incidentToEdit = incident;
-            }
-        }
 
         if (request.getParameter("edit").equals("delete")) {
 
@@ -68,14 +71,22 @@ public class EditIncident extends HttpServlet {
             //TODO: if there is an associated resolution, check for existing incident and assign to the incident
 
             url = "all-incidents";
-            RequestDispatcher rd = request.getRequestDispatcher(url);
-            rd.forward(request,response);
+            RequestDispatcher dispatcher = request.getRequestDispatcher(url);
+            dispatcher.forward(request,response);
         } else if (request.getParameter("edit").equals("update")){
-            url = "TreatTracker/update-incident?id=" + idToEdit;
+            request.setAttribute("incident", incidentToEdit);
+            request.setAttribute("users", users);
+            request.setAttribute("resolutions", resolutions);
+
+            url = "editIncident.jsp";
+            response.sendRedirect(url);
+
         } else {
-            url = "/TreatTracker/all-incident?invalid";
+            url = "all-incidents";
+            RequestDispatcher dispatcher = request.getRequestDispatcher(url);
+            dispatcher.forward(request,response);
         }
-        // Redirect to get all users
-        //response.sendRedirect(url);
+
+
     }
 }

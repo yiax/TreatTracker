@@ -18,7 +18,7 @@
             <a class="nav-link" href="#">Edit Resolutions</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">View Emails</a>
+            <a class="nav-link" href="all-emails">Add Incidents</a>
         </li>
     </ul>
 </nav>

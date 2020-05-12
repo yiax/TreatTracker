@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * This servlet get all users from the DB
  *
  * @author Yia Xiong
  */
@@ -31,7 +31,7 @@ public class GetAllUsers extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     *
+     * Get all the users and their roles. The user and role is send to the appropriate jsp for display.
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object

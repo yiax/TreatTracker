@@ -46,21 +46,21 @@ public class RoleTest {
      *
      * @throws Exception the exception
      */
-   /* @Test
+    @Test
     public void testGetAllRoles() throws Exception {
         assertTrue(roles.size() > 0);
-        assertTrue(roles.size() == 6);
+        assertTrue(roles.size() == 7);
         logger.info(roles.get(0).getRole());
         assertTrue(roles.get(0).getUser().getUser_name().equals("lmcmanus"));
         assertTrue(roles.get(0).getRole().equals("basic"));
-    }*/
+    }
 
     /**
      * Test update user.
      *
      * @throws Exception the exception
      */
-  /*  @Test
+    @Test
     public void testUpdateRole() throws Exception {
         Role role = roles.get(0);
         int id = role.getId();
@@ -74,14 +74,14 @@ public class RoleTest {
         logger.debug("user: " + role.toString());
         logger.debug("updatedUser: " + updatedRole.toString());
         assertTrue(role.equals(updatedRole));
-    }*/
+    }
 
     /**
      * Test delete user.
      *
      * @throws Exception the exception
      */
-  /*  @Test
+    @Test
     public void testDeleteRole() throws Exception {
         int sizeBeforeDelete = roles.size();
         Role roleToDelete = roles.get(1);
@@ -93,14 +93,14 @@ public class RoleTest {
 
         assertEquals(sizeBeforeDelete - 1, sizeAfterDelete);
         assertNull(deletedRole);
-    }*/
+    }
 
     /**
      * Test add user.
      *
      * @throws Exception the exception
      */
-  /*  @Test
+    @Test
     public void testAddRole() throws Exception {
 
         int insertedRoleId = 0;
@@ -117,5 +117,5 @@ public class RoleTest {
 
         assertTrue(insertedRoleId > 0);
         assertEquals(role, retrievedUser);
-    }*/
+    }
 }

@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * This servlet update the information from the jsp for a user.
  *
  * @author Yia Xiong
  */
@@ -31,7 +31,7 @@ public class UpdateUser extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     *
+     * This method retrieve the new user information from the jsp, and update the user's info in the DB
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object
@@ -44,7 +44,7 @@ public class UpdateUser extends HttpServlet {
         boolean updated = false;
         String url = "/TreatTracker/all-users?function=edit";
         HttpSession session = request.getSession();
-        int userID = Integer.parseInt(request.getParameter("id")) -1;
+        int userID = Integer.parseInt(request.getParameter("id"));
         String firstName = request.getParameter("firstName").trim();
         String lastName = request.getParameter("lastName").trim();
         String email = request.getParameter("email").trim();
@@ -54,10 +54,9 @@ public class UpdateUser extends HttpServlet {
         GenericDao<User> userDAO = new GenericDao<>(User.class);
         GenericDao<Role> roleDAO = new GenericDao<>(Role.class);
 
-        List<User> users = userDAO.getAll();
         List<Role> roles = roleDAO.getAll();
 
-        User user = users.get(userID);
+        User user = userDAO.getById(userID);
 
         if (delete != null && delete.equals("delete")) {
             for (Role role:roles) {

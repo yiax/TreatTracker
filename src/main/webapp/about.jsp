@@ -14,33 +14,20 @@
 <div class="container">
     <jsp:include page="navbar.jsp" />
     <h1>ABOUT</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula lacus nisi, nec vulputate ante dictum eget.
-    Sed sollicitudin consectetur dui, vel maximus justo laoreet vel. Integer sit amet scelerisque nibh. Praesent ornare
-    mattis massa, non porttitor tortor iaculis eu. Aliquam erat volutpat. Donec aliquam porttitor ex a viverra. Nunc
-    suscipit, arcu nec placerat tincidunt, lorem augue rutrum tellus, quis maximus augue sapien id mi. Etiam sit amet
-    sem id arcu lacinia ultricies vel sed nunc. Donec risus magna, sagittis at lectus eget, interdum ultricies ex.
-    Pellentesque egestas mauris eget commodo finibus. Suspendisse eu quam erat. Orci varius natoque penatibus et magnis
-    dis parturient montes, nascetur ridiculus mus. Aenean aliquam purus arcu, ac finibus purus molestie eget. Fusce
-    vitae mollis ante. Nam eu elementum turpis. Etiam vel facilisis metus, id vehicula leo.</p>
-    <p>Nunc sit amet mi massa. Integer efficitur velit vel congue varius. Fusce et tristique lorem. Vestibulum ut pharetra
-    est. Phasellus malesuada ante placerat ligula blandit, sit amet maximus est auctor. Vivamus in arcu mauris. Nullam
-    pharetra, elit et volutpat semper, arcu enim feugiat augue, eget luctus augue purus sit amet diam.</p>
-    <p>Maecenas commodo pretium tincidunt. Pellentesque at tristique nunc. In efficitur imperdiet purus, non gravida ex
-    volutpat et. Nulla ullamcorper facilisis tempor. Phasellus imperdiet quam vitae sollicitudin auctor. Sed sed
-    tristique libero, at fringilla urna. In id quam rutrum, accumsan metus vel, tristique diam. Quisque ut turpis
-    commodo massa iaculis ultrices at pellentesque justo. Aenean eget velit sed urna sollicitudin maximus venenatis sed
-    odio. Nulla convallis scelerisque sapien, non pretium ex sagittis ut. Integer dictum odio ex, nec commodo sem auctor
-    eu. Phasellus id eleifend felis, a malesuada diam. Maecenas at metus non sapien sagittis ornare sit amet in lectus.
-    Duis aliquet, dolor ut cursus elementum, ligula leo fermentum dui, at pellentesque erat felis a est. Nulla pharetra
-    auctor commodo.</p>
+    <p>Members of the BEPS Systems team are notorious for leaving their computers unlock when they are away from their
+        desk. This presents a major security concern with the team's security liaison and reflects poorly on a
+        technology team. A strategy, developed and enforced by the team, to control the neglectful act is to punish the
+        violator by incurring a debt in the form of a treat for entire team. A treat is indebted to the violator when a
+        co-worker witness the offense and sends an email from the violator's email to the team informing the team that
+        the violator will bring in a treat.</p>
+    <p>Current tracking application does not suffice the need of the team and records are manually recorded through an
+        Excel sheet. This is error prone since recording a violation may be missed and payments may be long overdue with
+        no punishment. The BEPS Systems team is in dire need of a way to assist the enforcement of locking their
+        computer.</p>
+
+
     <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     <div>Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 

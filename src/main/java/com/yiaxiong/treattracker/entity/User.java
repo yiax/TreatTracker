@@ -6,8 +6,12 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
-import lombok.*;
 
+
+/**
+ * Creates an instance of a User
+ * @author Yia Xiong
+ */
 @Entity(name="User")
 @Table(name="user")
 public class User implements Serializable{

@@ -36,6 +36,8 @@
       <url-pattern>/edit-incident</url-pattern>
       <url-pattern>/update-user</url-pattern>
       <url-pattern>/user-info</url-pattern>
+      <url-pattern>/all-emails</url-pattern>
+      <url-pattern>/add-incident</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>
@@ -48,4 +50,18 @@
   <security-role>
     <role-name>basic</role-name>
   </security-role>
+
+  <!-- handel errors -->
+  <error-page>
+    <error-code>403</error-code>
+    <location>/unauthorizedError.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/notFoundError.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/internalServerError.jsp</location>
+  </error-page>
 </web-app>

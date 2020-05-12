@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- *
+ * This servlet retrieve the data from an incident and pass it to the appropriate servlet for processing.
  *
  * @author Yia Xiong
  */
@@ -33,7 +33,7 @@ public class GetIncidentInfo extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     *
+     * Get all the user's unresolved incidents
      *
      *@param  request                   the HttpServletRequest object
      *@param  response                   the HttpServletResponse object
@@ -71,16 +71,16 @@ public class GetIncidentInfo extends HttpServlet {
             }
         }
 
+        // If not incidents were found for the user
         if (incidents.isEmpty() || unresolvedIncidents.isEmpty()) {
             message = queryUser.getFirst_name() + " " + queryUser.getLast_name() + " does not have any Treat Tracker incident.";
         } else {
-
+            // If incidents were found, send to jsp to generate form
             incidentToResolve = unresolvedIncidents.get(0);
             message = "Submit a note to resolve and incident for " + queryUser.getFirst_name() + " " + queryUser.getLast_name();
             session.setAttribute("incidentToResolve", incidentToResolve);
             request.setAttribute("resolveForm", 1);
         }
-
 
         session.setAttribute("message", message);
 

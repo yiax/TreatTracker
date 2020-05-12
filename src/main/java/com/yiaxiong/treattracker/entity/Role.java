@@ -5,6 +5,10 @@ import javax.persistence.*;
 import java.io.Serializable;
 import lombok.*;
 
+/**
+ * Creates an instance of a Role
+ * @author Yia Xiong
+ */
 @Entity(name="Role")
 @Table(name="role")
 @Getter

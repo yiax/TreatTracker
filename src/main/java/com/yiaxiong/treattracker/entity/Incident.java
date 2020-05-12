@@ -8,9 +8,12 @@ import javax.persistence.*;
 import lombok.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.HashSet;
-import java.util.Set;
 
+
+/**
+ * Create an instance of an Incident
+ * @author Yia Xionng
+ */
 @Entity(name="Incident")
 @Table(name="incident")
 @Getter
