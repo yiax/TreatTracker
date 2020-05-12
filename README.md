@@ -16,22 +16,25 @@ punishment. The BEPS Systems team is in dire need of a way to assist the enforce
   * Tomcat's JDBC Realm Authentication
 * Database
   * MySQL
-  * Store users and locations visited
 * ORM Framework
   * Hibernate 5
 * Dependency Management
   * Maven
 * CSS 
-  * Bootstrap or Materialize
+  * Bootstrap
 * Data Validation
   * Bootstrap Validator for front end
   * Explore Hibernate's validation
 * Logging
-  * Configurable logging using Log4J2. In production, only errors will normally be logged, but logging at a debug level can be turned on to facilitate trouble-shooting. 
+  * Configurable logging using Log4J2. 
 * Hosting
   * AWS
 * Unit Testing
   * JUnit tests to achieve 80%+ code coverage 
+* Other Technology
+  * Google Gmail API
+  * Javax Mail
+  * Commons Lang Libraries
 * IDE: IntelliJ IDEA
 
 ### Design
